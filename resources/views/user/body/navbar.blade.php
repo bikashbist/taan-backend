@@ -25,9 +25,13 @@
                 </div>
               </div>
               <div class="sub-menu sub-menu-items w-100">
-                <a href="{{route('user.members.profile','member')}}">Member Profile</a>
-                <a href="{{route('user.members.package','member')}}">Member Traking Package</a>
-                <a href="#"> Regional Association Members</a>
+                <a href="{{route('user.members.general')}}">General Members</a>
+                <a href="{{route('user.members.associate')}}">Associate Members</a>
+                <a href="{{route('user.members.regional')}}">Regional Association Members</a>
+
+                {{-- <a href="{{route('user.members.profile','member')}}">Member Profile</a>
+                <a href="{{route('user.members.package','member')}}">Member Traking Package</a> --}}
+                {{-- <a href="#"> Regional Association Members</a> --}}
               </div>
             </div>
           </li>

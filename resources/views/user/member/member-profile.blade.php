@@ -200,7 +200,7 @@
                         <div class="col-lg-3">
                             <div class="trail-packages__card">
 
-                                <a class="tour_image" href="package-details.html">
+                                <a class="tour_image" href="{{route('user.members.package','member')}}">
                                     <img src="{{asset('user/images/trail/1.webp')}} " alt="img">
 
                                     <div class="tour-band ">
@@ -208,7 +208,7 @@
                                 </a>
 
                                 <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="package-details.html">
+                                    <a class="tour_link" href="{{route('user.members.package','member')}}">
                                         <h4>Everest Base Camp Helicopter Tour</h4>
                                     </a>
                                     <div class="tour_excerpt">
@@ -223,7 +223,7 @@
                                         </div>
 
                                         <div class="tour_attribute_link">
-                                            <a href="package-details.html"> View More <i
+                                            <a href="{{route('user.members.package','member')}}"> View More <i
                                                     class="fa-solid fa-arrow-right-long"></i> </a>
                                         </div>
                                     </div>
@@ -234,7 +234,7 @@
                         <div class="col-lg-3">
                             <div class="trail-packages__card">
 
-                                <a class="tour_image" href="package-details.html">
+                                <a class="tour_image" href="{{route('user.members.package','member')}}">
                                     <img src="{{asset('user/images/trail/1.webp')}} " alt="img">
 
                                     <div class="tour-band ">
@@ -242,7 +242,7 @@
                                 </a>
 
                                 <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="package-details.html">
+                                    <a class="tour_link" href="{{route('user.members.package','member')}}">
                                         <h4>Everest Base Camp Helicopter Tour</h4>
                                     </a>
                                     <div class="tour_excerpt">
@@ -257,7 +257,7 @@
                                         </div>
 
                                         <div class="tour_attribute_link">
-                                            <a href="package-details.html"> View More <i
+                                            <a href="{{route('user.members.package','member')}}"> View More <i
                                                     class="fa-solid fa-arrow-right-long"></i> </a>
                                         </div>
                                     </div>
@@ -301,7 +301,7 @@
                         <div class="col-lg-3">
                             <div class="trail-packages__card">
 
-                                <a class="tour_image" href="package-details.html">
+                                <a class="tour_image" href="{{route('user.members.package','member')}}">
                                     <img src="{{asset('user/images/trail/1.webp')}} " alt="img">
 
                                     <div class="tour-band ">
@@ -309,7 +309,7 @@
                                 </a>
 
                                 <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="package-details.html">
+                                    <a class="tour_link" href="{{route('user.members.package','member')}}">
                                         <h4>Everest Base Camp Helicopter Tour</h4>
                                     </a>
                                     <div class="tour_excerpt">
@@ -324,7 +324,7 @@
                                         </div>
 
                                         <div class="tour_attribute_link">
-                                            <a href="package-details.html"> View More <i
+                                            <a href="{{route('user.members.package','member')}}"> View More <i
                                                     class="fa-solid fa-arrow-right-long"></i> </a>
                                         </div>
                                     </div>
@@ -335,7 +335,7 @@
                         <div class="col-lg-3">
                             <div class="trail-packages__card">
 
-                                <a class="tour_image" href="package-details.html">
+                                <a class="tour_image" href="{{route('user.members.package','member')}}">
                                     <img src="{{asset('user/images/trail/1.webp')}} " alt="img">
 
                                     <div class="tour-band ">
@@ -343,7 +343,7 @@
                                 </a>
 
                                 <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="package-details.html">
+                                    <a class="tour_link" href="{{route('user.members.package','member')}}">
                                         <h4>Everest Base Camp Helicopter Tour</h4>
                                     </a>
                                     <div class="tour_excerpt">
@@ -358,7 +358,7 @@
                                         </div>
 
                                         <div class="tour_attribute_link">
-                                            <a href="package-details.html"> View More <i
+                                            <a href="{{route('user.members.package','member')}}"> View More <i
                                                     class="fa-solid fa-arrow-right-long"></i> </a>
                                         </div>
                                     </div>
@@ -369,7 +369,7 @@
                         <div class="col-lg-3">
                             <div class="trail-packages__card">
 
-                                <a class="tour_image" href="package-details.html">
+                                <a class="tour_image" href="{{route('user.members.package','member')}}">
                                     <img src="{{asset('user/images/trail/1.webp')}} " alt="img">
 
                                     <div class="tour-band ">
@@ -377,7 +377,7 @@
                                 </a>
 
                                 <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="package-details.html">
+                                    <a class="tour_link" href="{{route('user.members.package','member')}}">
                                         <h4>Everest Base Camp Helicopter Tour</h4>
                                     </a>
                                     <div class="tour_excerpt">
@@ -392,7 +392,7 @@
                                         </div>
 
                                         <div class="tour_attribute_link">
-                                            <a href="package-details.html"> View More <i
+                                            <a href="{{route('user.members.package','member')}}"> View More <i
                                                     class="fa-solid fa-arrow-right-long"></i> </a>
                                         </div>
                                     </div>
@@ -403,7 +403,7 @@
                         <div class="col-lg-3">
                             <div class="trail-packages__card">
 
-                                <a class="tour_image" href="package-details.html">
+                                <a class="tour_image" href="{{route('user.members.package','member')}}">
                                     <img src="{{asset('user/images/trail/1.webp')}} " alt="img">
 
                                     <div class="tour-band ">
@@ -411,7 +411,7 @@
                                 </a>
 
                                 <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="package-details.html">
+                                    <a class="tour_link" href="{{route('user.members.package','member')}}">
                                         <h4>Everest Base Camp Helicopter Tour</h4>
                                     </a>
                                     <div class="tour_excerpt">
@@ -426,7 +426,7 @@
                                         </div>
 
                                         <div class="tour_attribute_link">
-                                            <a href="package-details.html"> View More <i
+                                            <a href="{{route('user.members.package','member')}}"> View More <i
                                                     class="fa-solid fa-arrow-right-long"></i> </a>
                                         </div>
                                     </div>
@@ -437,7 +437,7 @@
                         <div class="col-lg-3">
                             <div class="trail-packages__card">
 
-                                <a class="tour_image" href="package-details.html">
+                                <a class="tour_image" href="{{route('user.members.package','member')}}">
                                     <img src="{{asset('user/images/trail/1.webp')}} " alt="img">
 
                                     <div class="tour-band ">
@@ -445,7 +445,7 @@
                                 </a>
 
                                 <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="package-details.html">
+                                    <a class="tour_link" href="{{route('user.members.package','member')}}">
                                         <h4>Everest Base Camp Helicopter Tour</h4>
                                     </a>
                                     <div class="tour_excerpt">
@@ -460,7 +460,7 @@
                                         </div>
 
                                         <div class="tour_attribute_link">
-                                            <a href="package-details.html"> View More <i
+                                            <a href="{{route('user.members.package','member')}}"> View More <i
                                                     class="fa-solid fa-arrow-right-long"></i> </a>
                                         </div>
                                     </div>

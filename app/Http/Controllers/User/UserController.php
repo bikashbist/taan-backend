@@ -26,6 +26,15 @@ class UserController extends Controller
     public function MembersPackage(Request $request, $type){
         return view('user.member.member-package-details');
     }
+    public function General(){
+        return view('user.member.general');
+    }
+    public function Associate(){
+        return view('user.member.associate');
+    }
+    public function Regional(){
+        return view('user.member.regional');
+    }
 
     
     public function Trail(){

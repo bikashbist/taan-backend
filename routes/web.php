@@ -31,6 +31,9 @@ Route::group(['middleware' => 'setFooterType'], function () {
 });
 
 Route::group(['middleware' => 'setFooterType'], function () {
+    Route::get('/members-general', [UserController::class, 'General'])->name('user.members.general');
+    Route::get('/members-associate', [UserController::class, 'Associate'])->name('user.members.associate');
+    Route::get('/members-regional', [UserController::class, 'Regional'])->name('user.members.regional');
 
     Route::get('/members', [UserController::class, 'Members'])->name('user.members');
     Route::get('/about', [UserController::class, 'aboutUs'])->name('user.about');

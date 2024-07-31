@@ -715,3 +715,33 @@
         });
     });
 </script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const filterSpans = document.querySelectorAll('.filter-member span');
+      const memberList = document.querySelector('.member-list');
+      const memberCards = document.querySelectorAll('.member-list .col-4');
+  
+      filterSpans.forEach(span => {
+        span.addEventListener('click', () => {
+          const filterValue = span.getAttribute('data-value')[0].toUpperCase(); // Get the first letter of the filter value and convert to uppercase
+          let hasVisibleMembers = false;
+  
+          memberCards.forEach(card => {
+            const memberName = card.getAttribute('data-member-name').toUpperCase(); // Convert member name to uppercase
+            if (memberName.startsWith(filterValue)) {
+              card.style.display = 'block';
+              hasVisibleMembers = true;
+            } else {
+              card.style.display = 'none';
+            }
+          });
+  
+          if (hasVisibleMembers) {
+            memberList.style.display = 'block';
+          } else {
+            memberList.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
