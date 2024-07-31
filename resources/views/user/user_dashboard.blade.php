@@ -10,7 +10,6 @@
   <!-- navbar start -->
   @include('user.body.navbar')
   <!-- navbar end  -->
-
     @yield('content')
   @include('user.body.footer')
 

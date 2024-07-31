@@ -657,3 +657,61 @@
     //   }
     // });
 </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const searchInput = document.getElementById('searchInput');
+        const dropdownMenu = document.getElementById('dropdownMenu');
+
+        const members = [{
+                title: 'Member One',
+                img: 'https://via.placeholder.com/40'
+            },
+            {
+                title: 'Member Two',
+                img: 'https://via.placeholder.com/40'
+            },
+            {
+                title: 'Member Three',
+                img: 'https://via.placeholder.com/40'
+            },
+            // Add more members as needed
+        ];
+
+        searchInput.addEventListener('input', function() {
+            const query = searchInput.value.toLowerCase();
+            dropdownMenu.innerHTML = '';
+
+            if (query) {
+                const filteredMembers = members.filter(member => member.title.toLowerCase().includes(
+                    query));
+
+                filteredMembers.forEach(member => {
+                    const li = document.createElement('li');
+                    const img = document.createElement('img');
+                    img.src = member.img;
+                    const span = document.createElement('span');
+                    span.textContent = member.title;
+
+                    li.appendChild(img);
+                    li.appendChild(span);
+                    dropdownMenu.appendChild(li);
+
+                    li.addEventListener('click', function() {
+                        searchInput.value = member.title;
+                        dropdownMenu.style.display = 'none';
+                    });
+                });
+
+                dropdownMenu.style.display = 'block';
+            } else {
+                dropdownMenu.style.display = 'none';
+            }
+        });
+
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.search-trail')) {
+                dropdownMenu.style.display = 'none';
+            }
+        });
+    });
+</script>
