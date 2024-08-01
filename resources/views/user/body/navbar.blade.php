@@ -28,10 +28,6 @@
                 <a href="{{route('user.members.general')}}">General Members</a>
                 <a href="{{route('user.members.associate')}}">Associate Members</a>
                 <a href="{{route('user.members.regional')}}">Regional Association Members</a>
-
-                {{-- <a href="{{route('user.members.profile','member')}}">Member Profile</a>
-                <a href="{{route('user.members.package','member')}}">Member Traking Package</a> --}}
-                {{-- <a href="#"> Regional Association Members</a> --}}
               </div>
             </div>
           </li>
@@ -44,7 +40,7 @@
                 <div class="sub-count">
                   <div class="count-number ">
                     <a href="{{route('user.trail.package')}}">
-                      <span class="text-white ">Trail Package</span> <br>
+                      <span class="text-white ">Total Trail </span> <br>
                       <h3 class="text-white ">
                         25 +
                     </a>
@@ -52,7 +48,7 @@
                     </h3>
                     <div class="trail-packages pt-3 " style="border-top: 2px solid white;">
                     <a href="{{route('user.trail.details')}}" class="d-block">
-                        <span class="text-white "> Trail details</span> <br>
+                        <span class="text-white "> Trail Selection</span> <br>
                         <h3 class="text-white ">
                           100 +
                       </a>
@@ -66,16 +62,15 @@
                 </div>
               </div>
               <div class="sub-menu sub-menu-items w-100 ">
+                <a href="{{route('user.trail.details')}}">Everest Base Camp Trek</a>
+                <a href="{{route('user.trail.details')}}">Langtang Base Camp Trek
+                  Detail</a>
+                <a href="{{route('user.trail.details')}}">
+                  Kanchenjunga Base Camp Trek Cost and Itinerary 2024 </a>
 
-                <a href="{{route('user.trail.package')}}">Trail Profile</a>
-                <a href="{{route('user.trail.details')}}">Package Details
-                  Detail</a>
-
-                <a href="trail-details.html">Everest Base Camp Trek</a>
-                <a href="trail-package-details.html">Everest Base Camp Trek
-                  Detail</a>
-                <a href="trail-package-details.html">Everest Base Camp Trek Everest Base Camp Trek
-                  Detail</a>
+                  <a href="{{route('user.trail.details')}}">
+                    Kanchenjunga Circuit Trek 19 Days 2024 | 2025</a>
+               
 
               </div>
 

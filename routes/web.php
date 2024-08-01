@@ -27,7 +27,7 @@ Route::group(['middleware' => 'setFooterType'], function () {
   
     Route::get('/members-profile/{type}', [UserController::class, 'MembersProfile'])->name('user.members.profile');
     Route::get('/members-package/{type}', [UserController::class, 'MembersPackage'])->name('user.members.package');
-    // Other routes that should use the member footer
+
 });
 
 Route::group(['middleware' => 'setFooterType'], function () {
@@ -39,7 +39,8 @@ Route::group(['middleware' => 'setFooterType'], function () {
     Route::get('/about', [UserController::class, 'aboutUs'])->name('user.about');
     Route::get('/about-organization-chart', [UserController::class, 'OrganizationChart'])->name('user.organization.chart');
     Route::get('/trail', [UserController::class, 'Trail'])->name('user.trail');
-
+    Route::get('/top-destination', [UserController::class, 'TopDestination'])->name('top.destination');
+    
     Route::get('/trail-package', [UserController::class, 'TrailPackage'])->name('user.trail.package');
     Route::get('/trail-details', [UserController::class, 'TrailPackageDetails'])->name('user.trail.details');
    //end trail
@@ -52,18 +53,6 @@ Route::group(['middleware' => 'setFooterType'], function () {
 
    
 });
-
-// Route::prefix('user')->group(function () {
-
-//     member
-//     Route::get('/members/{type}', [UserController::class, 'Members'])->name('user.members');
-//     Route::get('/members-profile/{type}', [UserController::class, 'MembersProfile'])->name('user.members.profile');
-//     Route::get('/members-package/{type}', [UserController::class, 'MembersPackage'])->name('user.members.package');
-//     end member
-
-//     trail
-
-// });
 
 
 Route::middleware('auth','role:admin')->group(function () {

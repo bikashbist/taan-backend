@@ -1082,7 +1082,23 @@ button.owl-dot.active {
         }
     }
 }
+.ytp-impression-link {
+    background: rgba(23, 23, 23, .8);
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    bottom: 0px;
+    height: 47px;
+    width: 100%;
+    position: absolute;
+}
+.view-all-wrapper{
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
 
+    }
+}
 @media (max-width: 1339.98px) {
     .navbar .btn-signup {
         padding: 10px 20px;

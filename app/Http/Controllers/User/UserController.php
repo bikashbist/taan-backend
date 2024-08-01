@@ -49,9 +49,13 @@ class UserController extends Controller
     public function Login(){
         return view('user.login.login');
     }
+    public function TopDestination(){
+        return view('user.destination.destination');
+    }
     public function BMember(){
         return view('user.apply-for-membership.membership');
     }
+
     public function ToBecomeMember(Request $request)
     {
         // Add debugging to check if data is received
