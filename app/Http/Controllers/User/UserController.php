@@ -59,7 +59,7 @@ class UserController extends Controller
         return view('user.faq.faq');
     }
     public function MsgChairman(){
-        return view('user.chairman.msg');
+        return view('user.chairman.msgx');
     }
     
     

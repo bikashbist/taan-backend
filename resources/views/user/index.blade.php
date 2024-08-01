@@ -9,7 +9,7 @@
                     Our Introduction
                     </h1>
             </div>
-            <div class="row align-items-center">
+            <div class="row g-4 align-items-center">
 
                 <div class="col-lg-6 pe-lg-4">
 

@@ -303,7 +303,7 @@
                 </div>
                 <div class="col-12">
                     <div class="py-5 footer-menu-wrap d-flex flex-wrap justify-content-between align-items-center">
-                        <ul class="list-unstyled d-flex">
+                        <ul class="list-unstyled flex-wrap d-flex">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Trail</a></li>

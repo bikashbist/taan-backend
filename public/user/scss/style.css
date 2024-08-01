@@ -1313,7 +1313,7 @@
 .footer .quick-info i {
   font-size: 20px;
   color: #4DA42F;
-  color: #ffc107;
+  color: #ff9900;
 }
 .footer .quick-info span {
   display: block;
@@ -1329,7 +1329,7 @@
 }
 .footer .trail-package span i {
   color: #4DA42F;
-  color: #ffc107;
+  color: #ff9900;
 }
 .footer .subscribe {
   position: relative;
@@ -1352,7 +1352,7 @@
 }
 .footer .subscribe .btn-submit {
   background: #4DA42F;
-  background: #ffc107;
+  background: #ff9900;
   height: 47px;
   border-radius: 30px;
   padding-left: 30px;
@@ -1866,6 +1866,9 @@ img.img {
   height: 600px;
   overflow: hidden;
 }
+.banner .slider img {
+  height: 600px;
+}
 .banner .slider__image {
   position: absolute;
   width: 100%;
@@ -1970,7 +1973,7 @@ img.img {
   height: 50px;
   border-radius: 50%;
   background: #4DA42F;
-  background: #ffc107;
+  background: #ff9900;
   border: none;
 }
 .banner .member__search .btn-search i {
@@ -2101,7 +2104,7 @@ button.owl-dot {
 
 button.owl-dot.active {
   background: #4DA42F !important;
-  background: #ffc107 !important;
+  background: #ff9900 !important;
 }
 
 .owl-dots {
@@ -2156,7 +2159,7 @@ button.owl-dot.active {
 .scroll-btn i {
   display: inline-block;
   background-color: #4DA42F;
-  background-color: #ffc107;
+  background-color: #ff9900;
   color: #fff;
   text-align: center;
   font-size: 16px;
@@ -2587,6 +2590,57 @@ button.owl-dot.active {
     padding: 0px 10px !important;
   }
 }
+@media (min-width: 992px) {
+  .nav-item.dropdown:hover .dropdown-icon {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+  }
+  /* Ensure the arrow transitions smoothly */
+  .navbar .dropdown-icon {
+    transition: transform 0.3s ease-in-out;
+  }
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    /* Remove margin if necessary */
+  }
+  .navbar::after {
+    border-top: 0.3em solid transparent;
+    border-right: 0.3em solid;
+    display: none;
+    border-bottom: 0.3em solid transparent;
+    border-left: 0.3em solid transparent;
+  }
+  .dropdown-icon {
+    transition: transform 0.3s ease;
+  }
+  .dropdown:hover .dropdown-icon {
+    transform: rotate(180deg);
+  }
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: all 0.3s ease;
+    border-top: 3px solid #008929;
+    border-top: 3px solid #ff9900;
+    overflow: hidden;
+  }
+  .navbar .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+  }
+  .dropdown-icon {
+    transition: transform 0.3s ease;
+  }
+  .dropdown:hover .dropdown-icon {
+    transform: rotate(180deg);
+  }
+}
 @media (max-width: 991.98px) {
   .banner__article--content h1 {
     font-size: 46px;
@@ -2604,6 +2658,20 @@ button.owl-dot.active {
   }
   .trail-card__content {
     width: 100%;
+  }
+  .taan-support .support .support-image img {
+    width: 100%;
+  }
+  .footer .footer-menu-wrap ul li a {
+    color: #ffffff;
+    line-height: 25px;
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 20px;
+    border: 1px solid #ff9900;
+    padding: 10px 20px;
+    margin: 5px;
   }
 }
 @media (max-width: 767.98px) {
@@ -2627,6 +2695,17 @@ button.owl-dot.active {
   }
   .trail-card .title {
     font-size: 28px !important;
+  }
+  .banner .slider {
+    height: 400px;
+    overflow: hidden;
+  }
+  .banner__details {
+    position: relative;
+    height: 400px;
+  }
+  .banner .slider img {
+    height: 400px;
   }
 }
 @media (max-width: 576px) {
@@ -2654,7 +2733,10 @@ button.owl-dot.active {
   }
   .banner__details {
     position: relative;
-    height: 300px;
+    height: 400px;
+  }
+  .banner {
+    height: 400px;
   }
   .taan {
     color: #000000 !important;
@@ -2687,56 +2769,35 @@ button.owl-dot.active {
     padding: 30px;
     text-align: center;
   }
+  .banner {
+    height: 400px;
+  }
+  .pt-140 {
+    padding-top: 50px;
+  }
+  .typed-title {
+    top: 0;
+  }
 }
-@media (min-width: 992px) {
-  .nav-item.dropdown:hover .dropdown-icon {
-    transform: rotate(180deg);
-    transition: transform 0.3s ease-in-out;
+@media (max-width: 480px) {
+  .banner__article--content {
+    padding: 20px;
+    height: 80%;
   }
-  /* Ensure the arrow transitions smoothly */
-  .navbar .dropdown-icon {
-    transition: transform 0.3s ease-in-out;
-    color: #ff9900;
+  .banner__article--content h1 {
+    padding-top: 30px;
   }
-  .navbar .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-    /* Remove margin if necessary */
+  .banner__article--content p {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
-  .navbar::after {
-    border-top: 0.3em solid transparent;
-    border-right: 0.3em solid;
-    display: none;
-    border-bottom: 0.3em solid transparent;
-    border-left: 0.3em solid transparent;
+  .typed-title {
+    font-size: 14px;
   }
-  .dropdown-icon {
-    transition: transform 0.3s ease;
-  }
-  .dropdown:hover .dropdown-icon {
-    transform: rotate(180deg);
-  }
-  .navbar .dropdown:hover .dropdown-menu {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-    transition: all 0.3s ease;
-    border-top: 3px solid #008929;
-    border-top: 3px solid #ffc107;
-    overflow: hidden;
-  }
-  .navbar .dropdown-menu {
-    display: block;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-20px);
-    transition: all 0.3s ease;
-  }
-  .dropdown-icon {
-    transition: transform 0.3s ease;
-  }
-  .dropdown:hover .dropdown-icon {
-    transform: rotate(180deg);
+  .banner__article--content h1 {
+    font-size: 20px;
+    line-height: 30px !important;
   }
 }/*# sourceMappingURL=style.css.map */
