@@ -55,6 +55,14 @@ class UserController extends Controller
     public function BMember(){
         return view('user.apply-for-membership.membership');
     }
+    public function Faq(){
+        return view('user.faq.faq');
+    }
+    public function MsgChairman(){
+        return view('user.chairman.msg');
+    }
+    
+    
 
     public function ToBecomeMember(Request $request)
     {

@@ -380,6 +380,7 @@ img.img {
                 height: 50px;
                 border-radius: 50%;
                 background: $primary-color;
+                background: #ffc107;
                 border: none;
 
                 i {
@@ -542,6 +543,7 @@ button.owl-dot {
 
 button.owl-dot.active {
     background: $primary-color !important;
+    background: #ffc107!important;
 }
 
 .owl-dots {
@@ -604,6 +606,7 @@ button.owl-dot.active {
     i {
         display: inline-block;
         background-color: $primary-color;
+        background-color: #ffc107;
         color: #fff;
         text-align: center;
         font-size: 16px;
@@ -921,6 +924,16 @@ button.owl-dot.active {
                 border: none;
                 font-weight: 500;
 
+            }
+            a{
+                padding: 10px 20px;
+                border-radius: 30px;
+                border: none;
+                font-weight: 500;
+                background-color: #fff;
+                &:hover{
+                    color: #4da32f;
+                }
             }
         }
 
@@ -1284,11 +1297,13 @@ button.owl-dot.active {
     .nav-item.dropdown:hover .dropdown-icon {
         transform: rotate(180deg);
         transition: transform 0.3s ease-in-out;
+       
     }
 
     /* Ensure the arrow transitions smoothly */
     .navbar .dropdown-icon {
         transition: transform 0.3s ease-in-out;
+        color: #ff9900;
     }
 
     .navbar .dropdown:hover .dropdown-menu {
@@ -1320,6 +1335,7 @@ button.owl-dot.active {
         transform: translateY(0);
         transition: all 0.3s ease;
         border-top: 3px solid #008929;
+        border-top: 3px solid #ffc107;
         overflow: hidden;
     }
 

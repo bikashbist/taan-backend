@@ -43,24 +43,20 @@ Route::group(['middleware' => 'setFooterType'], function () {
     
     Route::get('/trail-package', [UserController::class, 'TrailPackage'])->name('user.trail.package');
     Route::get('/trail-details', [UserController::class, 'TrailPackageDetails'])->name('user.trail.details');
+    Route::get('/msg-chairman', [UserController::class, 'MsgChairman'])->name('user.msg.chairman');
    //end trail
    //login
    Route::get('/member-login', [UserController::class, 'Login'])->name('member.login');
    Route::get('/become-a-member', [UserController::class, 'BMember'])->name('become.member');
-
+   Route::get('/faq', [UserController::class, 'Faq'])->name('user.faq');
    Route::post('/members', [UserController::class, 'store'])->name('members.store');
    Route::post('to-become-member', [UserController::class, 'ToBecomeMember'])->name('members.store');
-
-   
 });
-
 
 Route::middleware('auth','role:admin')->group(function () {
     Route::get('admin/dashboard', [AdminController::class, 'AdminDashboard'])->name('admin.dashboard');
     Route::get('admin/member', [AdminController::class, 'AdminMember'])->name('admin.member');
     Route::get('members/create', [AdminMemberController::class, 'create'])->name('members.create');
-   
-
 });
 
 Route::middleware('auth','role:member')->group(function () {

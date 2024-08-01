@@ -97,12 +97,12 @@
             </a>
           </li> --}}
           <li class="nav-item">
-            <a class="nav-link" href="#" role="button" aria-expanded="false">
+            <a class="nav-link" href="https://tims.ntb.gov.np/login" role="button" aria-expanded="false">
               TIMs
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" role="button" aria-expanded="false">
+            <a class="nav-link" href="{{route('user.faq')}}" role="button" aria-expanded="false">
               FAQs
             </a>
           </li>
