@@ -441,39 +441,39 @@
                                                 Photos
                                             </h2>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 col-md-6 col-12">
                                             <a data-fancybox="gallery" data-src="{{asset('user/images/trail/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg')}}"
                                                 data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
                                                 <img src="{{asset('user/images/trail/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg')}}" width="100%" height="150"
                                                     alt="img" />
                                             </a>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 col-md-6 col-12">
                                             <a data-fancybox="gallery" data-src="{{asset('user/images/trail/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg')}}">
                                                 <img src="{{asset('user/images/trail/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg')}}" width="100%" height="150"
                                                     alt="img" />
                                             </a>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 col-md-6 col-12">
                                             <a data-fancybox="gallery" data-src="{{asset('user/images/trail/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg')}}">
                                                 <img src="{{asset('user/images/trail/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg')}}" width="100%" height="150"
                                                     alt="img" />
                                             </a>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 col-md-6 col-12">
                                             <a data-fancybox="gallery" data-src="{{asset('user/images/trail/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg')}}"
                                                 data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
                                                 <img src="{{asset('user/images/trail/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg')}}" width="100%" height="150"
                                                     alt="img" />
                                             </a>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 col-md-6 col-12">
                                             <a data-fancybox="gallery" data-src="{{asset('user/images/trail/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg')}}">
                                                 <img src="{{asset('user/images/trail/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg')}}" width="100%" height="150"
                                                     alt="img" />
                                             </a>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 col-md-6 col-12">
                                             <a data-fancybox="gallery" data-src="{{asset('user/images/trail/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg')}}">
                                                 <img src="{{asset('user/images/trail/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg')}}" width="100%" height="150"
                                                     alt="img" />
@@ -484,7 +484,7 @@
                                                 Vidos
                                             </h2>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 col-md-6 col-12">
                                             <div class="card">
                                                 <a data-fancybox href="https://www.youtube.com/watch?v=CGgAyFwcNKg">
                                                     <img class="card-img-top img-fluid"
@@ -493,7 +493,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 col-md-6 col-12">
                                             <div class="card">
                                                 <a data-fancybox href="https://www.youtube.com/watch?v=CGgAyFwcNKg">
                                                     <img class="card-img-top img-fluid"
@@ -502,7 +502,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 col-md-6 col-12">
                                             <div class="card">
                                                 <a data-fancybox href="https://www.youtube.com/watch?v=CGgAyFwcNKg">
                                                     <img class="card-img-top img-fluid"

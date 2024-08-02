@@ -59,11 +59,9 @@ class UserController extends Controller
         return view('user.faq.faq');
     }
     public function MsgChairman(){
-        return view('user.chairman.msgx');
+        return view('user.chairman.msg');
     }
     
-    
-
     public function ToBecomeMember(Request $request)
     {
         // Add debugging to check if data is received

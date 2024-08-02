@@ -6,11 +6,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    h1 {
-        font-size: 44px;
+    .trail-profile h1 {
+        font-size: 36px;
         font-weight: 700;
-        line-height: 65px;
-        font-family: $font-poppins;
+        line-height: 48px;
+        font-family: "Poppins", sans-serif;
     }
     img {
         width: 100%;

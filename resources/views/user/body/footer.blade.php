@@ -203,7 +203,7 @@
     <footer class="footer  mt-lg-5 mt-3">
         <div class="container">
             <div class="row g-lg-5 g-3 ">
-                <div class="col-lg-4 col-md-4 col-12 pr-md-5 mb-4 mb-md-0">
+                <div class="col-lg-4 col-md-6 col-12 pr-md-5 mb-4 mb-md-0">
                     <h3>Default About Us</h3>
                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam itaque
                         unde
@@ -223,7 +223,7 @@
                         <input type="submit" class="btn btn-submit" value="Send">
                     </form>
                 </div>
-                <div class="col-lg-5 col-md-4 col-12 mb-4 mb-md-0">
+                <div class="col-lg-5 col-md-6 col-12 mb-4 mb-md-0">
                     <h3>Latest Trails</h3>
                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam itaque
                         unde
@@ -264,7 +264,7 @@
 
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-4 col-12 mb-4 mb-md-0">
+                <div class="col-lg-3 col-md-6 col-12 mb-4 mb-md-0">
                     <h3>Photo Gallery</h3>
                     <div class="row g-3 ">
                         <div class="col-6">

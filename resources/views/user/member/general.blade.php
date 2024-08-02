@@ -327,9 +327,9 @@
     </div>
 
 </div>
-    <div class="section mt-lg-5">
+    <div class="section mt-lg-5 mt-3">
         <div class="container justify-content-center">
-            <div class="row">
+            <div class="row g-4">
                 <div class="col-lg-6">
                     <div class="banner2-card five">
                         <img src="https://demo-egenslab.b-cdn.net/html/triprex/preview/assets/img/home3/banner4-card-img2.png"

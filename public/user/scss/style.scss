@@ -1115,6 +1115,14 @@ button.owl-dot.active {
 
     }
 }
+@media (max-width: 1400px) {
+ 
+    .navbar .btn-signup {
+        padding: 10px 20px;
+      
+    }
+}
+
 @media (max-width: 1339.98px) {
     .navbar .btn-signup {
         padding: 10px 20px;
@@ -1139,26 +1147,13 @@ button.owl-dot.active {
 
 
 @media (max-width: 1199.98px) {
-    .banner__article {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .banner__article--content.pt-140.position-relative {
+        width: 70%;
     }
 
     .banner .member__search {
         margin: 0 auto;
     }
-
-    .navbar img {
-        width: auto;
-        height: 46px;
-    }
-
     .navbar a.nav-link {
         font-size: 15px;
         padding: 0px 10px !important;
@@ -1227,16 +1222,81 @@ button.owl-dot.active {
     }
    
 }
+@media (max-width: 1200px) {
+    .feature__content {
 
+        height: 310px;
+    }
+    .navbar img {
+        width: 174px;
+        height: auto;
+    }
+    .navbar .btn-signup {
+        padding: 10px 10px;
+    }
+   
+}
+
+@media (max-width: 1024px) {
+    .banner__article--content h1 {
+      
+        font-size: 3.74vh!important;
+    }
+    a.read-more {
+        display: block;
+        width: max-content;
+    }
+    .banner .member__search {
+       
+        width: 100%;
+        max-width: 100%;
+     
+    }
+    .banner__article {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+}
 @media (max-width: 991.98px) {
     .banner__article--content h1 {
         font-size: 46px;
         line-height: 50px;
     }
+    .typed-title{
+        top: 0;
+    }
+    .feature__content {
+
+        height: auto;
+    }
+    .banner .member__search {
+        max-width: 100%;
+        width: 100%;
+    }
+    .inner-banner__navbar h1 {
+        font-size: 36px;
+    }
+    .inner-banner__navbar .quick-view {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .inner-banner {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .navbar img {
+        width: auto;
+        height: 46px;
+    }
 
     .banner__article--content p {
         font-size: 20px;
-        text-align: center;
     }
 
     .banner .member__search {

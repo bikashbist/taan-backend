@@ -27,20 +27,7 @@
                         sound business principles as well as regulate the sector which was growing by leaps and bounds with
                         every
                         passing year.
-                        {{-- They also felt the need of a strong lobby group that could suggest to the government on
-              several issues to promote the Nepali tourism industry and develop tourism as a revenue generating industry. --}}
-                    </p>
-
-
-                    <!--
-                <br><p>
-                  Initially, TAAN had limited its membership only to Nepalese trekking agencies. It later opened associate membership to foreign organizations to broaden the scope of the association.
-                </p>
-                <br>
-                <p>
-                  TAAN members (around 1,729 General Members, 7 Associate Members and 155 General Members of TAAN Regional Association Pokhara) meet annually to endorse policy guidelines which govern the executive body. The executive committee work as per the TAAN Statute and guidelines of the Annual General Body meeting. The association frequently communicates with different government agencies and other stakeholders to simplify working procedures and resolve problems related to the trekking sector. The executive committee, which is elected every two years, has eight office-bearers, nine executive committee members, four nominated executive members, one immediate past president and one representative from TAAN Regional Association Pokhara.
-                </p> -->
-
+           
 
                     <a class="read-more" href="#">Read More</a>
                 </div>
@@ -76,7 +63,7 @@
                         adventure <br> holidays to every corner of the Nepal.</p>
             </div>
             <div class="row g-4">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="feature__content text-center  px-lg-3 py-lg-4 p-3">
                         <i class="fa-regular fa-sun"></i>
 
@@ -84,7 +71,7 @@
                         <p>Since its inception, TAAN has been extending its helpful hands in any emergency response.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="feature__content text-center  px-lg-3 py-lg-4 p-3">
 
                         <i class="fa-solid fa-tty"></i>
@@ -92,7 +79,7 @@
                         <p>TAAN, plays a significant role in mountain rescue operations in the Annapurna region.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="feature__content text-center  px-lg-3 py-lg-4 p-3">
 
                         <i class="fa-brands fa-teamspeak"></i>
@@ -100,14 +87,14 @@
                         <p>TAAN coordinates with local rescue teams, and porters to facilitate efficient operations.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="feature__content text-center  px-lg-3 py-lg-4 p-3">
                         <i class="fa-solid fa-earth-americas"></i>
                         <h5 class="my-3">Environmental Responsibility</h5>
                         <p> TAAN promotes sustainable tourism practices by encouraging eco-friendly trekking.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="feature__content text-center  px-lg-3 py-lg-4 p-3">
                         <i class="fa-regular fa-sun"></i>
 
@@ -115,7 +102,7 @@
                         <p>Since its inception, TAAN has been extending its helpful hands in any emergency response.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="feature__content text-center  px-lg-3 py-lg-4 p-3">
 
                         <i class="fa-solid fa-tty"></i>
@@ -123,7 +110,7 @@
                         <p>TAAN, plays a significant role in mountain rescue operations in the Annapurna region.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="feature__content text-center  px-lg-3 py-lg-4 p-3">
 
                         <i class="fa-brands fa-teamspeak"></i>
@@ -131,7 +118,7 @@
                         <p>TAAN coordinates with local rescue teams, and porters to facilitate efficient operations.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="feature__content text-center  px-lg-3 py-lg-4 p-3">
                         <i class="fa-solid fa-earth-americas"></i>
                         <h5 class="my-3">Environmental Responsibility</h5>
@@ -664,7 +651,7 @@
                     </div>
                 </div>
                 <div class="col-lg-9">
-                    <div class="support d-lg-flex flex-column flex-lg-row justify-content-center h-100">
+                    <div class="support d-lg-flex flex-wrap flex-column flex-lg-row justify-content-center h-100">
                         <div class="support-message">
                             <h4>Get Started by Speaking with our Support counsellors</h4>
                             <p>Our Taan Support are working from home, ready to help you stay open for business with answers
