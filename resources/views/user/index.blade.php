@@ -251,7 +251,6 @@
         </div>
     </section>
 
-
     <!-- message from president start -->
     <section class="message my-lg-5 my-3">
         <div class="container">
@@ -277,10 +276,6 @@
         </div>
     </section>
     <!-- message from president end-->
-
-
-
-
 
     <section class="section-trail mb-lg-5">
         <div class="container">
@@ -638,7 +633,7 @@
     </section>
 
     <!-- taan support start -->
-    <section class="taan-support my-lg-5 my-3">
+    {{-- <section class="taan-support my-lg-5 my-3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -664,6 +659,35 @@
                             <img src="{{ asset('user/images/support-cover.png') }}" alt="Support Contact Image">
                         </div>
                     </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section> --}}
+    <section class="taan-support my-lg-5 my-3">
+        <div class="container">
+            <div class="row">
+        
+                <div class="col-lg-8">
+                    <div class="support d-lg-flex flex-column flex-lg-row justify-content-center h-100">
+                        <div class="support-message">
+                            <h4>Get Started by Speaking with our Support counsellors</h4>
+                            <p>Our Taan Support are working from home, ready to help you stay open for business with answers
+                                and
+                                advice
+                                24/7/365. Send your queries about trekking, Help or complain your trekking services.</p>
+                            <button>Contact Us</button>
+                        </div>
+                        <div class="support-image d-flex justify-content-center p-2">
+                            <img src="{{ asset('user/images/support-cover.png') }}" alt="Support Contact Image">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftaan.np&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=6144971828892501" width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
                 </div>
             </div>
 
@@ -960,12 +984,10 @@
             </div>
     </section>
 
-
     <!-- accrediation end -->
-
     <section class="faq mt-lg-5 mt-3 pt-4">
         <div class="container">
-            <div class="row g-5 justify-content-center">
+            <div class="row g-4">
                 <div class="col-lg-3 text-left">
                     <h2 class="mb-4">FAQs</h2>
                     <p>An FAQ page is an important part of any business website. Learn the best strategies for creating FAQ
@@ -973,145 +995,148 @@
                         that convert site visitors into paying customers.</p>
                 </div>
                 <div class="col-lg-8">
-                    <div class="accordion" id="accordionExample">
-                        <div class="faq__item">
-
-                            <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <h5>Why Nepal is Travel Destination?</h5>
-                            </a>
-
-                            <div id="collapseOne" class="accordion-collapse collapse "
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        This is the first item's accordion body. It is shown by default, until the collapse
-                                        plugin adds the
-                                        appropriate classes that we use to style each element. These classes control the
-                                        overall appearance,
-                                        as well as the showing and hiding via CSS transitions. You can modify any of this
-                                        with custom CSS or
-                                        overriding our default variables. It's also worth noting that just about any HTML
-                                        can go within the
-                                        <code>.accordion-body</code>, though the transition does limit overflow.
-                                    </p>
+                    <div class="faq__details position-relative">
+                        <div class="accordion" id="accordionExample">
+                            <div class="faq__item">
+    
+                                <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h5>Why Nepal is Travel Destination?</h5>
+                                </a>
+    
+                                <div id="collapseOne" class="accordion-collapse collapse "
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            This is the first item's accordion body. It is shown by default, until the collapse
+                                            plugin adds the
+                                            appropriate classes that we use to style each element. These classes control the
+                                            overall appearance,
+                                            as well as the showing and hiding via CSS transitions. You can modify any of this
+                                            with custom CSS or
+                                            overriding our default variables. It's also worth noting that just about any HTML
+                                            can go within the
+                                            <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="faq__item">
-
-                            <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-
-                                <h5>
-                                    Why Travel To Nepal?
-                                </h5>
-                            </a>
-
-                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Nepal is a landlocked country with a population of about 30 million. It is
-                                        sandwiched between the
-                                        two most populous countries on earth - China and India. The central part of the
-                                        Himalayas lies in
-                                        Nepal, which includes eight of the ten tallest mountains.
-
-                                    </p>
-                                    <p>
-                                        The Himalayas are the youngest fold mountains, and as a result, Nepal encompasses
-                                        several folds in
-                                        the form of tall mountains. Hence, it is not surprising that the country with the
-                                        highest peak (Mt.
-                                        Everest) is also home to the deepest gorge in the world, Kaligandaki Gorge.
-
-                                    </p>
+                            <div class="faq__item">
+    
+                                <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+    
+                                    <h5>
+                                        Why Travel To Nepal?
+                                    </h5>
+                                </a>
+    
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Nepal is a landlocked country with a population of about 30 million. It is
+                                            sandwiched between the
+                                            two most populous countries on earth - China and India. The central part of the
+                                            Himalayas lies in
+                                            Nepal, which includes eight of the ten tallest mountains.
+    
+                                        </p>
+                                        <p>
+                                            The Himalayas are the youngest fold mountains, and as a result, Nepal encompasses
+                                            several folds in
+                                            the form of tall mountains. Hence, it is not surprising that the country with the
+                                            highest peak (Mt.
+                                            Everest) is also home to the deepest gorge in the world, Kaligandaki Gorge.
+    
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="faq__item">
-
-                            <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <h5>Why Nepal is Travel Destination?</h5>
-                            </a>
-
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                    the collapse
-                                    plugin adds the appropriate classes that we use to style each element. These classes
-                                    control the
-                                    overall appearance, as well as the showing and hiding via CSS transitions. You can
-                                    modify any of this
-                                    with custom CSS or overriding our default variables. It's also worth noting that just
-                                    about any HTML
-                                    can go within the <code>.accordion-body</code>, though the transition does limit
-                                    overflow.
+                            <div class="faq__item">
+    
+                                <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <h5>Why Nepal is Travel Destination?</h5>
+                                </a>
+    
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                        the collapse
+                                        plugin adds the appropriate classes that we use to style each element. These classes
+                                        control the
+                                        overall appearance, as well as the showing and hiding via CSS transitions. You can
+                                        modify any of this
+                                        with custom CSS or overriding our default variables. It's also worth noting that just
+                                        about any HTML
+                                        can go within the <code>.accordion-body</code>, though the transition does limit
+                                        overflow.
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="faq__item">
-
-                            <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-
-                                <h5>
-                                    Why Travel To Nepal?
-                                </h5>
-                            </a>
-
-                            <div id="collapsefour" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>
-                                        Nepal is a landlocked country with a population of about 30 million. It is
-                                        sandwiched between the
-                                        two most populous countries on earth - China and India. The central part of the
-                                        Himalayas lies in
-                                        Nepal, which includes eight of the ten tallest mountains.
-
-                                    </p>
-                                    <p>
-                                        The Himalayas are the youngest fold mountains, and as a result, Nepal encompasses
-                                        several folds in
-                                        the form of tall mountains. Hence, it is not surprising that the country with the
-                                        highest peak (Mt.
-                                        Everest) is also home to the deepest gorge in the world, Kaligandaki Gorge.
-
-                                    </p>
+                            <div class="faq__item">
+    
+                                <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+    
+                                    <h5>
+                                        Why Travel To Nepal?
+                                    </h5>
+                                </a>
+    
+                                <div id="collapsefour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Nepal is a landlocked country with a population of about 30 million. It is
+                                            sandwiched between the
+                                            two most populous countries on earth - China and India. The central part of the
+                                            Himalayas lies in
+                                            Nepal, which includes eight of the ten tallest mountains.
+    
+                                        </p>
+                                        <p>
+                                            The Himalayas are the youngest fold mountains, and as a result, Nepal encompasses
+                                            several folds in
+                                            the form of tall mountains. Hence, it is not surprising that the country with the
+                                            highest peak (Mt.
+                                            Everest) is also home to the deepest gorge in the world, Kaligandaki Gorge.
+    
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="faq__item">
-
-                            <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-                                <h5>Why Nepal is Travel Destination?</h5>
-                            </a>
-
-                            <div id="collapsefive" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until
-                                    the collapse
-                                    plugin adds the appropriate classes that we use to style each element. These classes
-                                    control the
-                                    overall appearance, as well as the showing and hiding via CSS transitions. You can
-                                    modify any of this
-                                    with custom CSS or overriding our default variables. It's also worth noting that just
-                                    about any HTML
-                                    can go within the <code>.accordion-body</code>, though the transition does limit
-                                    overflow.
+                            <div class="faq__item">
+    
+                                <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                    <h5>Why Nepal is Travel Destination?</h5>
+                                </a>
+    
+                                <div id="collapsefive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                        the collapse
+                                        plugin adds the appropriate classes that we use to style each element. These classes
+                                        control the
+                                        overall appearance, as well as the showing and hiding via CSS transitions. You can
+                                        modify any of this
+                                        with custom CSS or overriding our default variables. It's also worth noting that just
+                                        about any HTML
+                                        can go within the <code>.accordion-body</code>, though the transition does limit
+                                        overflow.
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="faq__item">
-                            <a class="faq-read-more" href="#">View More <i
-                                    class="fa-solid fa-arrow-right-long"></i></a>
+                            <div class="faq__item">
+                                <a class="faq-read-more" href="#">View More <i
+                                        class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -1213,4 +1238,46 @@
             </div>
         </div>
     </section>
+
+    <section class="accrediation my-lg-5 my-3">
+                
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="our-partner">
+                        <div class="section__title text-center mb-lg-4 mb-3 ">
+                            <h3>
+                                Our Partners
+                                </h1>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="partners-list">
+                        <div class="owl-carousel owl-theme owl-partners">
+                            <div class="partners ">
+                            <img src="{{ asset('user/images/gov-of-nepal.jpg') }}" alt="Government of Nepal Image">
+                            </div>
+                            <div class="partners">
+                            <img src="{{ asset('user/images/nep-tourism-board.jpg') }} " alt="Nepal Tourism Board Image">
+                            </div>
+                            <div class="partners">
+                            <img src="{{ asset('user/images/world-food-prog.jpg') }} " alt="World Food Programme Image">
+                            </div>
+                            <div class="partners">
+                            <img src="{{ asset('user/images/snv.jpg') }}" alt="SNV Image">
+                            </div>
+                            <div class="partners">
+                            <img src="{{ asset('user/images/gov-of-nepal.jpg') }}" alt="Government of Nepal Image">
+                            </div>
+                        </div>
+                        
+                        </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
 @endsection

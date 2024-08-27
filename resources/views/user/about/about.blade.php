@@ -1,13 +1,26 @@
+
+
 @extends('user.user_dashboard')
 @section('content')
-<section class="about-us mt-lg-5">
-    <div class="container">
+
+<section class="about-us profile-page">
+    <div class="section-bg-banner">
+        <div class="hero-bg">
+            <img src="{{asset('user/images/layout-img/page-title.webp')}}"  alt="bg">
+        </div>
+        <div class="container">
+           <div class="section-hero-title">
+            <p class="text-white"> Get to Know Us</p>
+            <h1 class="text-white">About Us</h1>
+
+          
+           </div>
+           <img class="page-title-icon" src="{{asset('user/images/layout-img/icon-page-title.png')}}" alt="icon">
+        </div>
+    </div>
+    <div class="container py-lg-5 py-3">
         <div class="row">
-            <div class="col-lg-8 mx-auto">
-
-                <h1>About Us</h1>
-
-                <p> Welcome to Trekking Agencies' Association of Nepal (TAAN)</p>
+            <div class="col-lg-12 mx-auto">
 
                 <div class="an-user mb-4 pb-xl-2 d-flex align-items-center">
                     <div class="image image-big">
@@ -25,8 +38,12 @@
                     </div>
                 
                 </div>
+                 
                 <div>
+                    <h4>
 
+                        <strong> Welcome to Trekking Agencies' Association of Nepal (TAAN)</strong>
+                    </h4>
 
                     <p>
                         Trekking Agencies' Association of Nepal (TAAN) is an umbrella association of trekking
@@ -245,6 +262,10 @@
                             victimsof Bara and Parsa storm victims. The fund collected was handed over
                             formaking temporary building for Little Academic Primary School of Kalaiya</li>
                     </ul>
+                
+                
+      
+
                 </div>
 
 
@@ -254,3 +275,8 @@
 </section>
    
 @endsection
+
+
+
+
+

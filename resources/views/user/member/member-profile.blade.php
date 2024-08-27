@@ -90,7 +90,42 @@
                                 </h2>
 
                                 <div class="photo-video">
-                                    <div class="row g-4">
+                                    <div class="owl-carousel owl-theme owl-legal-docs ">
+                                        <div class="legal-docs">
+                                            <a data-fancybox="gallery"
+                                                data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYbhoPsS_-dRZf0taT6yMuDlpq0doOVg2AlQ&s">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYbhoPsS_-dRZf0taT6yMuDlpq0doOVg2AlQ&s"
+                                                    width="100%" height="250" alt="img" />
+                                                    <figcaption>Fig: Legal Document Title</figcaption>
+                                            </a>
+                                        </div>
+                                        <div class="legal-docs">
+                                            <a data-fancybox="gallery"
+                                                data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYbhoPsS_-dRZf0taT6yMuDlpq0doOVg2AlQ&s">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYbhoPsS_-dRZf0taT6yMuDlpq0doOVg2AlQ&s"
+                                                    width="100%" height="250" alt="img" />
+                                                    <figcaption>Fig: Legal Document Title</figcaption>
+                                            </a>
+                                        </div>
+                                        <div class="legal-docs">
+                                            <a data-fancybox="gallery"
+                                                data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYbhoPsS_-dRZf0taT6yMuDlpq0doOVg2AlQ&s">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYbhoPsS_-dRZf0taT6yMuDlpq0doOVg2AlQ&s"
+                                                    width="100%" height="250" alt="img" />
+                                                    <figcaption>Fig: Legal Document Title</figcaption>
+                                            </a>
+                                        </div>
+                                        <div class="legal-docs">
+                                            <a data-fancybox="gallery"
+                                                data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYbhoPsS_-dRZf0taT6yMuDlpq0doOVg2AlQ&s">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYbhoPsS_-dRZf0taT6yMuDlpq0doOVg2AlQ&s"
+                                                    width="100%" height="250" alt="img" />
+                                                    <figcaption>Fig: Legal Document Title</figcaption>
+                                            </a>
+                                        </div>
+                    
+                                    </div>
+                                    {{-- <div class="row g-4">
                                         <div class="col-lg-4">
                                             
                                             <a data-fancybox="gallery"
@@ -119,9 +154,9 @@
                                                     width="100%" height="250" alt="img" />
                                                     <figcaption>Fig: Legal Document Title</figcaption>
                                             </a>
-                                            {{-- <h6> Legal Documents Title</h6> --}}
+                                           
                                         </div>
-                                    </div>
+                                    </div> --}}
 
                                 </div>
 
@@ -150,23 +185,25 @@
 
                                     </div>
                                 </div>
-                                <div class="contact-details text-center mt-3 px-4 pb-4">
-                                    <span>info@nepaltrekadvanture.com</span>
+                                <div class="contact-details text-center mt-2 px-4 pb-4">
+                                    {{-- <span>info@nepaltrekadvanture.com</span> --}}
                                     <div class="phone-number">
-                                        <a href="#">+977 98510 17030</a>
+                                        {{-- <a href="#">+977 98510 17030</a> --}}
+                                        <a href="tel:+977 98510 17030" target="_blank"
+                                        class="btn btn-contact btn-call-us text-white w-100 mt-3">Call us now!: +977 98510 17030 </a>
                                     </div>
                                     <a href="https://wa.me/9779851017030" target="_blank"
                                         class="btn btn-contact text-white w-100 mt-3"> <i
                                             class="fa-brands fa-whatsapp"></i> Contact Us <i
                                             class="fa-solid fa-arrow-right-long"></i></a>
 
-                                    <div class="more-infor  p-4 mt-3">
+                                    <div class="more-infor  p-4 ">
                                         <span class="d-block">Founded year: 2080 Jan 24</span>
                                         <br>
                                         <a class="d-block website-visit" href="#"> <span><i
                                                     class="fa-solid fa-globe"></i></span> Visit Website <i
                                                 class="fa-solid fa-arrow-right-long"></i></a>
-                                        <p>Make an Enquiry</p>
+                                        <p class="mb-0">Connect with Us</p>
 
                                     </div>
                                     <div class="social-media d-flex justify-content-center">
@@ -176,28 +213,25 @@
                                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                                     </div>
                                 </div>
-                              
-
+                            
                             </div>
 
                         </div>
-                    
-
-
                     </div>
                 </div>
+              
 
                 <div class="trail-packages" id="related-selection">
                     <div class="row g-4">
                         <div class="col-lg-12">
                             <div class="section__title text-start w-100">
                                 <h3>
-                                    Our Selections
+                                    Best Selling Offers 
                                     </h1>
                                     <hr>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-4">
                             <div class="trail-packages__card">
 
                                 <a class="tour_image" href="{{route('user.members.package','member')}}">
@@ -214,24 +248,48 @@
                                     <div class="tour_excerpt">
                                         <span> <i class="fa-solid fa-location-dot"></i> Solukhumbu Nepal</span>
                                     </div>
-                                    <div
-                                        class="tour_attribute_wrapper d-flex justify-content-between align-items-center mt-3">
-                                        <div class="tour_attribute_share">
-                                            <a id="single_tour_share_button" href="javascript:;"
-                                                class="button ghost themeborder" style="width:auto;"><i
-                                                    class="fa-solid fa-share-nodes"></i> Share this tour</a>
+                               
+                                    <div class="row g-2 mt-2 trip-facts trip-facts-member">
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3 ">
+                                                <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Destination</h6>
+                                                    <h5 class="info">Nepal</h5>
+                                                </div>
+                                            </div>
                                         </div>
-
-                                        <div class="tour_attribute_link">
-                                            <a href="{{route('user.members.package','member')}}"> View More <i
-                                                    class="fa-solid fa-arrow-right-long"></i> </a>
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3">
+                                                <div class="icon">
+                                                    <i class="fa-regular fa-calendar-days"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Durations</h6>
+                                                    <h5 class="info">16 days</h5>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-mountain-city"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Trip Difficulty</h6>
+                                                    <h5 class="info">Moderate </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                   
+                                      
+                                    
                                     </div>
 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-4">
                             <div class="trail-packages__card">
 
                                 <a class="tour_image" href="{{route('user.members.package','member')}}">
@@ -248,57 +306,49 @@
                                     <div class="tour_excerpt">
                                         <span> <i class="fa-solid fa-location-dot"></i> Solukhumbu Nepal</span>
                                     </div>
-                                    <div
-                                        class="tour_attribute_wrapper d-flex justify-content-between align-items-center mt-3">
-                                        <div class="tour_attribute_share">
-                                            <a id="single_tour_share_button" href="javascript:;"
-                                                class="button ghost themeborder" style="width:auto;"><i
-                                                    class="fa-solid fa-share-nodes"></i> Share this tour</a>
+                                  
+                                    <div class="row g-2 mt-2 trip-facts trip-facts-member">
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3 ">
+                                                <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Destination</h6>
+                                                    <h5 class="info">Nepal</h5>
+                                                </div>
+                                            </div>
                                         </div>
-
-                                        <div class="tour_attribute_link">
-                                            <a href="{{route('user.members.package','member')}}"> View More <i
-                                                    class="fa-solid fa-arrow-right-long"></i> </a>
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3">
+                                                <div class="icon">
+                                                    <i class="fa-regular fa-calendar-days"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Durations</h6>
+                                                    <h5 class="info">16 days</h5>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-mountain-city"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Trip Difficulty</h6>
+                                                    <h5 class="info">Moderate </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                     
+                                      
+                                    
                                     </div>
 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="trail-packages__card">
-
-                                <a class="tour_image" href="#">
-                                    <img src="{{asset('user/images/trail/1.webp')}} " alt="img">
-
-                                    <div class="tour-band ">
-                                        NEW</div>
-                                </a>
-
-                                <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="#">
-                                        <h4>Everest Base Camp Helicopter Tour</h4>
-                                    </a>
-                                    <div class="tour_excerpt">
-                                        <span> <i class="fa-solid fa-location-dot"></i> Solukhumbu , Nepal</span>
-                                    </div>
-                                    <div
-                                        class="tour_attribute_wrapper d-flex justify-content-between align-items-center mt-3">
-                                        <div class="tour_attribute_share">
-                                            <a id="single_tour_share_button" href="javascript:;"
-                                                class="button ghost themeborder" style="width:auto;"><i
-                                                    class="fa-solid fa-share-nodes"></i> Share this tour</a>
-                                        </div>
-
-                                        <div class="tour_attribute_link">
-                                            <a href="#">View More <i class="fa-solid fa-arrow-right-long"></i> </a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
+                      
+                        <div class="col-lg-4">
                             <div class="trail-packages__card">
 
                                 <a class="tour_image" href="{{route('user.members.package','member')}}">
@@ -315,24 +365,48 @@
                                     <div class="tour_excerpt">
                                         <span> <i class="fa-solid fa-location-dot"></i> Solukhumbu Nepal</span>
                                     </div>
-                                    <div
-                                        class="tour_attribute_wrapper d-flex justify-content-between align-items-center mt-3">
-                                        <div class="tour_attribute_share">
-                                            <a id="single_tour_share_button" href="javascript:;"
-                                                class="button ghost themeborder" style="width:auto;"><i
-                                                    class="fa-solid fa-share-nodes"></i> Share this tour</a>
+                                   
+                                    <div class="row g-2 mt-2 trip-facts trip-facts-member">
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3 ">
+                                                <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Destination</h6>
+                                                    <h5 class="info">Nepal</h5>
+                                                </div>
+                                            </div>
                                         </div>
-
-                                        <div class="tour_attribute_link">
-                                            <a href="{{route('user.members.package','member')}}"> View More <i
-                                                    class="fa-solid fa-arrow-right-long"></i> </a>
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3">
+                                                <div class="icon">
+                                                    <i class="fa-regular fa-calendar-days"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Durations</h6>
+                                                    <h5 class="info">16 days</h5>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-mountain-city"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Trip Difficulty</h6>
+                                                    <h5 class="info">Moderate </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                 
+                                    
                                     </div>
 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-4">
                             <div class="trail-packages__card">
 
                                 <a class="tour_image" href="{{route('user.members.package','member')}}">
@@ -349,24 +423,48 @@
                                     <div class="tour_excerpt">
                                         <span> <i class="fa-solid fa-location-dot"></i> Solukhumbu Nepal</span>
                                     </div>
-                                    <div
-                                        class="tour_attribute_wrapper d-flex justify-content-between align-items-center mt-3">
-                                        <div class="tour_attribute_share">
-                                            <a id="single_tour_share_button" href="javascript:;"
-                                                class="button ghost themeborder" style="width:auto;"><i
-                                                    class="fa-solid fa-share-nodes"></i> Share this tour</a>
+                                   
+                                    <div class="row g-2 mt-2 trip-facts trip-facts-member">
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3 ">
+                                                <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Destination</h6>
+                                                    <h5 class="info">Nepal</h5>
+                                                </div>
+                                            </div>
                                         </div>
-
-                                        <div class="tour_attribute_link">
-                                            <a href="{{route('user.members.package','member')}}"> View More <i
-                                                    class="fa-solid fa-arrow-right-long"></i> </a>
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3">
+                                                <div class="icon">
+                                                    <i class="fa-regular fa-calendar-days"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Durations</h6>
+                                                    <h5 class="info">16 days</h5>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-mountain-city"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Trip Difficulty</h6>
+                                                    <h5 class="info">Moderate </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                 
+                                    
                                     </div>
 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-4">
                             <div class="trail-packages__card">
 
                                 <a class="tour_image" href="{{route('user.members.package','member')}}">
@@ -383,24 +481,48 @@
                                     <div class="tour_excerpt">
                                         <span> <i class="fa-solid fa-location-dot"></i> Solukhumbu Nepal</span>
                                     </div>
-                                    <div
-                                        class="tour_attribute_wrapper d-flex justify-content-between align-items-center mt-3">
-                                        <div class="tour_attribute_share">
-                                            <a id="single_tour_share_button" href="javascript:;"
-                                                class="button ghost themeborder" style="width:auto;"><i
-                                                    class="fa-solid fa-share-nodes"></i> Share this tour</a>
+                                   
+                                    <div class="row g-2 mt-2 trip-facts trip-facts-member">
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3 ">
+                                                <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Destination</h6>
+                                                    <h5 class="info">Nepal</h5>
+                                                </div>
+                                            </div>
                                         </div>
-
-                                        <div class="tour_attribute_link">
-                                            <a href="{{route('user.members.package','member')}}"> View More <i
-                                                    class="fa-solid fa-arrow-right-long"></i> </a>
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3">
+                                                <div class="icon">
+                                                    <i class="fa-regular fa-calendar-days"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Durations</h6>
+                                                    <h5 class="info">16 days</h5>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-mountain-city"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Trip Difficulty</h6>
+                                                    <h5 class="info">Moderate </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                 
+                                    
                                     </div>
 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-4">
                             <div class="trail-packages__card">
 
                                 <a class="tour_image" href="{{route('user.members.package','member')}}">
@@ -417,52 +539,42 @@
                                     <div class="tour_excerpt">
                                         <span> <i class="fa-solid fa-location-dot"></i> Solukhumbu Nepal</span>
                                     </div>
-                                    <div
-                                        class="tour_attribute_wrapper d-flex justify-content-between align-items-center mt-3">
-                                        <div class="tour_attribute_share">
-                                            <a id="single_tour_share_button" href="javascript:;"
-                                                class="button ghost themeborder" style="width:auto;"><i
-                                                    class="fa-solid fa-share-nodes"></i> Share this tour</a>
+                                   
+                                    <div class="row g-2 mt-2 trip-facts trip-facts-member">
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3 ">
+                                                <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Destination</h6>
+                                                    <h5 class="info">Nepal</h5>
+                                                </div>
+                                            </div>
                                         </div>
-
-                                        <div class="tour_attribute_link">
-                                            <a href="{{route('user.members.package','member')}}"> View More <i
-                                                    class="fa-solid fa-arrow-right-long"></i> </a>
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3">
+                                                <div class="icon">
+                                                    <i class="fa-regular fa-calendar-days"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Durations</h6>
+                                                    <h5 class="info">16 days</h5>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="trail-packages__card">
-
-                                <a class="tour_image" href="{{route('user.members.package','member')}}">
-                                    <img src="{{asset('user/images/trail/1.webp')}} " alt="img">
-
-                                    <div class="tour-band ">
-                                        NEW</div>
-                                </a>
-
-                                <div class="portfolio_info_wrapper">
-                                    <a class="tour_link" href="{{route('user.members.package','member')}}">
-                                        <h4>Everest Base Camp Helicopter Tour</h4>
-                                    </a>
-                                    <div class="tour_excerpt">
-                                        <span> <i class="fa-solid fa-location-dot"></i> Solukhumbu Nepal</span>
-                                    </div>
-                                    <div
-                                        class="tour_attribute_wrapper d-flex justify-content-between align-items-center mt-3">
-                                        <div class="tour_attribute_share">
-                                            <a id="single_tour_share_button" href="javascript:;"
-                                                class="button ghost themeborder" style="width:auto;"><i
-                                                    class="fa-solid fa-share-nodes"></i> Share this tour</a>
+                                        <div class="col-sm-4">
+                                            <div class="item border  text-center py-3">
+                                                <div class="icon">
+                                                    <i class="fa-solid fa-mountain-city"></i>
+                                                </div>
+                                                <div class="text">
+                                                    <h6 class="info-title">Trip Difficulty</h6>
+                                                    <h5 class="info">Moderate </h5>
+                                                </div>
+                                            </div>
                                         </div>
-
-                                        <div class="tour_attribute_link">
-                                            <a href="{{route('user.members.package','member')}}"> View More <i
-                                                    class="fa-solid fa-arrow-right-long"></i> </a>
-                                        </div>
+                                    
+                                 
+                                    
                                     </div>
 
                                 </div>

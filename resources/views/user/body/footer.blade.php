@@ -200,7 +200,7 @@
 
     </footer>
 @else
-    <footer class="footer  mt-lg-5 mt-3">
+    <footer class="footer">
         <div class="container">
             <div class="row g-lg-5 g-3 ">
                 <div class="col-lg-4 col-md-6 col-12 pr-md-5 mb-4 mb-md-0">
@@ -592,70 +592,116 @@
         }
     });
 
+    $('.owl-partners').owlCarousel({
+        items: 4,
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
 
-    // $('.owl-partners').owlCarousel({
-    //   items: 4,
-    //   loop: true,
-    //   margin: 10,
-    //   autoplay: true,
-    //   autoplayTimeout: 1000,
-    //   autoplayHoverPause: true,
+        responsiveClass: true,
+        nav: false,
+        items: 5,
+        margin: 20,
+        dots: false,
+        navText: ['<span class="fas fa-chevron-left fa-1x"></span>',
+            '<span class="fas fa-chevron-right fa-1x"></span>'
+        ],
+        responsive: {
+            0: {
+                items: 1,
+                nav: false,
+                dots: true,
+            },
+            450: {
+                items: 1,
+                nav: false,
+                dots: true,
 
-    //   responsiveClass: true,
-    //   nav: false,
-    //   items: 5,
-    //   margin: 20,
-    //   dots: false,
-    //   navText: ['<span class="fas fa-chevron-left fa-1x"></span>',
-    //     '<span class="fas fa-chevron-right fa-1x"></span>'
-    //   ],
-    //   responsive: {
-    //     0: {
-    //       items: 1,
-    //       nav: false,
-    //       dots: true,
-    //     },
-    //     450: {
-    //       items: 1,
-    //       nav: false,
-    //       dots: true,
+            },
+            575: {
+                items: 1,
+                nav: false,
+                dots: true,
 
-    //     },
-    //     575: {
-    //       items: 1,
-    //       nav: false,
-    //       dots: true,
+            },
+            767: {
+                items: 2,
+                nav: false,
+                dots: false,
+            },
+            991: {
+                items: 3,
+                nav: false,
+                dots: false,
+            },
+            1199: {
+                items: 4,
+                nav: false,
+                dots: false,
+            },
+            1399: {
+                items: 5,
+                nav: false,
+                dots: false,
 
-    //     },
-    //     767: {
-    //       items: 2,
-    //       nav: false,
-    //       dots: false,
-    //     },
-    //     991: {
-    //       items: 3,
-    //       nav: false,
-    //       dots: false,
-    //     },
-    //     1199: {
-    //       items: 4,
-    //       nav: false,
-    //       dots: false,
-    //     },
-    //     1399: {
-    //       items: 5,
-    //       nav: false,
-    //       dots: false,
+            },
+            1439: {
+                items: 5,
+                nav: false,
+                dots: false,
 
-    //     },
-    //     1439: {
-    //       items: 5,
-    //       nav: false,
-    //       dots: false,
+            }
+        }
+    });
+    $('.owl-legal-docs').owlCarousel({
+      items: 4,
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 1000,
+      autoplayHoverPause: true,
 
-    //     }
-    //   }
-    // });
+      responsiveClass: true,
+      nav: false,
+      items: 3,
+      margin: 20,
+      dots: false,
+      navText: ['<span class="fas fa-chevron-left fa-1x"></span>',
+        '<span class="fas fa-chevron-right fa-1x"></span>'
+      ],
+      responsive: {
+        0: {
+          items: 1,
+          nav: false,
+          dots: true,
+        },
+        450: {
+          items: 1,
+          nav: false,
+          dots: true,
+
+        },
+        575: {
+          items: 1,
+          nav: false,
+          dots: true,
+
+        },
+        767: {
+          items: 2,
+          nav: false,
+          dots: false,
+        },
+        991: {
+          items: 3,
+          nav: false,
+          dots: true,
+        },
+        
+      }
+    });
 </script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {

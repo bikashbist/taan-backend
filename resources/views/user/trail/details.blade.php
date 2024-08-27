@@ -5,9 +5,9 @@
         <img src="{{asset('user/images/trail/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg')}}" alt="img">
         <div class="inner-banner__navbar d-flex align-items-center">
             <div class="container position-relative">
-                <div class="bg-breadcrumd w-75">
+                <div class="bg-breadcrumd w-75 w-sm-100">
                     <h1 class="text-white mb-3">Everest Base Camp Trek with Helicopter Return</h1>
-                    <nav aria-label="breadcrumb">
+                    {{-- <nav aria-label="breadcrumb">
                         <ol class="breadcrumb ">
                             <li class="breadcrumb-item "><a class="text-white" href="#">Home</a></li>
                             <li class="breadcrumb-item "><a class="text-white" href="#">Trail</a></li>
@@ -15,7 +15,7 @@
                                 Helicopter Return
                             </li>
                         </ol>
-                    </nav>
+                    </nav> --}}
                 </div>
                 <div class="quick-view d-flex align-items-center">
                     <div class="quick-detail me-3">
@@ -768,8 +768,6 @@
                                 </div> --}}
                             </div>
                             
-                          
-    
                         </div>
                         <div class=" sidebar sidebar-border trail-details-sidebar mb-4  ">
                             
@@ -826,7 +824,7 @@
                     </div>
                    
                 </div>
-                <div class="trail-packages" id="related-packages">
+                {{-- <div class="trail-packages" id="related-packages">
                     <div class="row g-4">
                         <div class="col-lg-12">
                             <div class="section__title text-start w-100">
@@ -1045,9 +1043,287 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
+               
             </div>
         </div>
 
+    </section>
+    <section class="section-trail mb-4" id="related-packages">
+        <div class="container">
+            <div class="section__title text-center text-lg-start">
+                <h3>
+                    Everest Related Trail
+                    </h1>
+                   
+            </div>
+
+            <div class="section-trail__details">
+                <div class="row g-4 ">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="{{ route('user.trail.details') }}">
+                            <div class="section-trail__details__list">
+                                <div class="section-trail__details__list__box">
+                                    <div class="logo-img">
+                                        <img src="{{ asset('user/images/trail/Climbers-side-Nepali-Mount-Everest.webp') }}"
+                                            alt="" class="img">
+                                        {{-- <div class="bagde-flag-wrap">
+                                            <a href="#" class="bagde-flag"> upcoming </a>
+                                        </div> --}}
+                                    </div>
+
+                                    <div class="text">
+
+                                        <small><i class="fa-solid fa-location-dot"></i> Solukhumbu Nepal -10
+                                        </small>
+                                        <a href="{{ route('user.trail.details') }}">
+                                            <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
+                                        </a>
+                                        <small><i class="fa-regular fa-calendar-days"></i> Duration - <b>10 Days</b>
+                                        </small>
+                                        <small><i class="fa-solid fa-plane-up"></i> Transport - <b> Private vehicle / By Air
+                                            </b>
+                                        </small>
+
+
+
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- list section-trail -->
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#">
+                            <div class="section-trail__details__list">
+                                <div class="section-trail__details__list__box">
+                                    <div class="logo-img">
+                                        <img src="https://media.everestbasecamptravel.com/uploads/package/namche-helicopter-flight.webp"
+                                            alt="" class="img">
+                                        {{-- <div class="bagde-flag-wrap">
+                                            <a href="#" class="bagde-flag"> upcoming </a>
+                                        </div> --}}
+                                    </div>
+
+                                    <div class="text">
+
+                                        <small><i class="fa-solid fa-location-dot"></i> Kathmandu, Chitwan, Pokhara
+                                        </small>
+                                        <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
+                                        <small><i class="fa-regular fa-calendar-days"></i> Duration - <b>10 Days</b>
+                                        </small>
+                                        <small><i class="fa-solid fa-plane-up"></i> Transport - <b> Private vehicle / By Air
+                                            </b>
+                                        </small>
+
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- list section-trail -->
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#">
+                            <div class="section-trail__details__list">
+                                <div class="section-trail__details__list__box">
+                                    <div class="logo-img">
+                                        <img src="https://media.everestbasecamptravel.com/uploads/package/namche-helicopter-flight.webp"
+                                            alt="" class="img">
+                                        {{-- <div class="bagde-flag-wrap">
+                                            <a href="#" class="bagde-flag"> Top Trail </a>
+                                        </div> --}}
+                                    </div>
+
+                                    <div class="text">
+
+                                        <small><i class="fa-solid fa-location-dot"></i> Kathmandu, Nepal </small>
+                                        <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
+                                        <small><i class="fa-regular fa-calendar-days"></i> Duration - <b>10 Days</b>
+                                        </small>
+                                        <small><i class="fa-solid fa-plane-up"></i> Transport - <b> Private vehicle / By Air
+                                            </b>
+                                        </small>
+
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- list section-trail -->
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#">
+                            <div class="section-trail__details__list">
+                                <div class="section-trail__details__list__box">
+                                    <div class="logo-img">
+                                        <img src="https://media.everestbasecamptravel.com/uploads/package/namche-helicopter-flight.webp"
+                                            alt="" class="img">
+
+                                    </div>
+
+                                    <div class="text">
+
+                                        <small><i class="fa-solid fa-location-dot"></i> Kathmandu, Nepal </small>
+                                        <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
+                                        <small><i class="fa-regular fa-calendar-days"></i> Duration - <b>10 Days</b>
+                                        </small>
+                                        <small><i class="fa-solid fa-plane-up"></i> Transport - <b> Private vehicle / By
+                                                Air </b>
+                                        </small>
+
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- list section-trail -->
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="section-trail mb-3" id="upcomming">
+        <div class="container">
+            <div class="section__title text-center text-lg-start">
+                <h3>
+                    Upcomming Trail
+                    </h1>
+                   
+            </div>
+
+            <div class="section-trail__details">
+                <div class="row g-4 ">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="{{ route('user.trail.details') }}">
+                            <div class="section-trail__details__list">
+                                <div class="section-trail__details__list__box">
+                                    <div class="logo-img">
+                                        <img src="{{ asset('user/images/trail/Climbers-side-Nepali-Mount-Everest.webp') }}"
+                                            alt="" class="img">
+                                        <div class="bagde-flag-wrap">
+                                            <a href="#" class="bagde-flag"> upcoming </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="text">
+
+                                        <small><i class="fa-solid fa-location-dot"></i> Solukhumbu Nepal -10
+                                        </small>
+                                        <a href="{{ route('user.trail.details') }}">
+                                            <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
+                                        </a>
+                                        <small><i class="fa-regular fa-calendar-days"></i> Duration - <b>10 Days</b>
+                                        </small>
+                                        <small><i class="fa-solid fa-plane-up"></i> Transport - <b> Private vehicle / By Air
+                                            </b>
+                                        </small>
+
+
+
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- list section-trail -->
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#">
+                            <div class="section-trail__details__list">
+                                <div class="section-trail__details__list__box">
+                                    <div class="logo-img">
+                                        <img src="https://media.everestbasecamptravel.com/uploads/package/namche-helicopter-flight.webp"
+                                            alt="" class="img">
+                                        <div class="bagde-flag-wrap">
+                                            <a href="#" class="bagde-flag"> upcoming </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="text">
+
+                                        <small><i class="fa-solid fa-location-dot"></i> Kathmandu, Chitwan, Pokhara
+                                        </small>
+                                        <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
+                                        <small><i class="fa-regular fa-calendar-days"></i> Duration - <b>10 Days</b>
+                                        </small>
+                                        <small><i class="fa-solid fa-plane-up"></i> Transport - <b> Private vehicle / By Air
+                                            </b>
+                                        </small>
+
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- list section-trail -->
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#">
+                            <div class="section-trail__details__list">
+                                <div class="section-trail__details__list__box">
+                                    <div class="logo-img">
+                                        <img src="https://media.everestbasecamptravel.com/uploads/package/namche-helicopter-flight.webp"
+                                            alt="" class="img">
+                                            <div class="bagde-flag-wrap">
+                                                <a href="#" class="bagde-flag"> upcoming </a>
+                                            </div>
+                                    </div>
+
+                                    <div class="text">
+
+                                        <small><i class="fa-solid fa-location-dot"></i> Kathmandu, Nepal </small>
+                                        <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
+                                        <small><i class="fa-regular fa-calendar-days"></i> Duration - <b>10 Days</b>
+                                        </small>
+                                        <small><i class="fa-solid fa-plane-up"></i> Transport - <b> Private vehicle / By Air
+                                            </b>
+                                        </small>
+
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- list section-trail -->
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <a href="#">
+                            <div class="section-trail__details__list">
+                                <div class="section-trail__details__list__box">
+                                    <div class="logo-img">
+                                        <img src="https://media.everestbasecamptravel.com/uploads/package/namche-helicopter-flight.webp"
+                                            alt="" class="img">
+                                            <div class="bagde-flag-wrap">
+                                                <a href="#" class="bagde-flag"> upcoming </a>
+                                            </div>
+
+                                    </div>
+
+                                    <div class="text">
+
+                                        <small><i class="fa-solid fa-location-dot"></i> Kathmandu, Nepal </small>
+                                        <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
+                                        <small><i class="fa-regular fa-calendar-days"></i> Duration - <b>10 Days</b>
+                                        </small>
+                                        <small><i class="fa-solid fa-plane-up"></i> Transport - <b> Private vehicle / By
+                                                Air </b>
+                                        </small>
+
+                                    </div>
+
+                                </div>
+
+                            </div> <!-- list section-trail -->
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
     </section>
 @endsection

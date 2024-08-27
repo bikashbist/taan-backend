@@ -26,7 +26,12 @@ sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@font-face {
+    font-family: 'Georgia Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Georgia Regular'), url('../georgia-2/georgia.ttf') format('woff');
+    }
 body {
     font-family: $font-roboto;
     position: relative;
@@ -132,6 +137,7 @@ p {
 
 img.img {
     width: 100%;
+    height: 100%;
 }
 
 .navbar {
@@ -306,20 +312,15 @@ img.img {
         z-index: 99;
 
         &--content {
+            
+                width: 800px;
+            
             h1 {
-                // font-size: 52px;
-                // font-weight: 500;
-                // line-height: 65px;
-                color: $white-color;
-                // font-family: $font-taviraj;
-                // font-weight: 600;
-                // font-family: "Literata", serif;
-                // font-size: 62px !important;
-                // line-height: 1.2em !important;
+                color: #FFFFFF;
                 font-weight: 600;
                 font-family: "Literata", serif;
                 line-height: 1.2em !important;
-                font-size:7.74vh; 
+                font-size: 54px;
                 
             }
 
@@ -673,6 +674,14 @@ button.owl-dot.active {
                 background: $primary-color;
             }
         }
+        h5.sub-menu-title {
+            // background: #4da42f;
+            color: #4da42f;
+            /* border-radius: 4px; */
+            /* border-bottom: 5px solid #4da42f; */
+            font-size: 18px;
+            font-weight: 600;
+        }
     }
 
 }
@@ -939,7 +948,6 @@ button.owl-dot.active {
                 }
             }
         }
-
         .president-image img {
             height: 100%;
             width: 400px;
@@ -949,13 +957,13 @@ button.owl-dot.active {
     }
 }
 
-//message css end
-
-//taan support css start
 .taan-support {
     .support {
         background-color: $secondary-color;
         background-color: #4da32f;
+        background: #008929;
+        background: -webkit-linear-gradient(to right, #4da42f, #ff9900 ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4da42f, #ff9900 );
       
         color: $white-color;
         border-radius: 5px;
@@ -991,23 +999,23 @@ button.owl-dot.active {
             padding: 20px 10px 20px 15px;
             height: 100%;
             width: 450px;
+            height: 490px;
         }
     }
 }
 
 //taan support css end
-
 //accrediation css start
 .accrediation {
 
     .partners-list {
         .partners {
             border: 1px solid $border-color;
-            border-radius: 20px;
+            border-radius: 5px;
         }
 
         .partners img {
-            border-radius: 20px;
+            border-radius: 5px;
             width: 100%;
         }
     }
@@ -1115,10 +1123,153 @@ button.owl-dot.active {
 
     }
 }
+.our-partner {
+    background: #008929;
+    background: -webkit-linear-gradient(to right, #ff9900, #4da42f); /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to right, #ff9900, #4da42f);
+    background: linear-gradient(to right, #4da42f, #4da42f);
+    color: #fff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.teams {
+    &.tems-100 {
+        margin-top: -90px;
+    }
+    &__social-media{
+        a{
+            width: 40px;
+            height: 40px;
+            text-decoration: none;
+            background: #4da42f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            margin: 5px;
+            border-radius: 50%;
+            i{
+                font-size: 20px;
+            }
+        }
+       
+    }
+    &__details__list__box {
+        border: 1px solid #dcdcdc;
+        background: #ffffff;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .teams__details__list {
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .logo-img{
+        background: #9E9E9E;
+        overflow: hidden;
+        img{
+            height: 250px;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+    }
+  
+    .bg-facebook{
+        background-color: #2f56bc;
+    }
+    .bg-insta{
+        background: #833ab4;
+        background: linear-gradient(
+          to right,
+          #833ab4,#fd1d1d,#fcb045
+        )
+    }
+    .bg-twitter{
+        background-color: #121212;
+    }
+    .text {
+        h4{
+            font-size: 20px;
+            margin-bottom: 30px;
+            font-family: "Poppins", sans-serif;
+        }
+        span{
+            font-size: 16px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            // color: #ffffff;
+            // background: #ff9900;
+            // border-radius: 29px;
+            // margin-top: 10px;
+        }
+    }
+}
+.profile-btn{
+    position: absolute;
+    /* left: 0; */
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: #4da42f;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 20px 0px 0px 0px;
+    /* border-right: 5px solid #ff9900; */
+    padding: 5px 18px;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s;
+    &:hover{
+        background: #ff9900;
+    }
+}
+.newsletter{
+   &__file{
+    background-color: #f0f0f0;
+    h3{
+        font-family: "Taviraj", serif;
+        
+    }
+   }
+}
+.team-list-faq-style{
+    width: 100%;
+    border: 1px solid #4da42f;
+    padding: 0px 0px;
+    margin: 4px 0px;
+    a{
+        text-decoration: none!important;
+    }
+  
+    .accordion-button {
+      
+        color: #fafafa;
+        text-align: left;
+        background-color: #4da42f;
+ 
+    }
+}
 @media (max-width: 1400px) {
  
     .navbar .btn-signup {
         padding: 10px 20px;
+      
+    }
+    .navbar img {
+        width: 174px;
+        height: 60px;
+        object-fit: contain;
+    }
+    .navbar a.nav-link {
+
+        font-size: 14px;
       
     }
 }
@@ -1143,20 +1294,77 @@ button.owl-dot.active {
         color: #ff4a52;
         font-size: 12px;
     }
+    .teams .logo-img img {
+        height: 200px;
+    }
 }
 
 
 @media (max-width: 1199.98px) {
-    .banner__article--content.pt-140.position-relative {
+    .banner__article--content {
         width: 70%;
     }
+    .teams .logo-img img {
+        height: 150px;
+    }
+    .teams .text h4 {
+        font-size: 18px;
 
+    }
+    .teams .text span {
+        font-size: 14px;
+    }
     .banner .member__search {
         margin: 0 auto;
     }
     .navbar a.nav-link {
         font-size: 15px;
         padding: 0px 10px !important;
+    }
+    .banner__article {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner__article--content h1 {
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .banner__article--content p {
+        text-align: center;
+    }
+    .typed-title {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .navbar .btn-login {
+       
+        font-size: 12px;
+ 
+    }
+    .navbar .btn-signup {
+        font-size: 12px;
+    }
+    .feature__content {
+
+        height: 310px;
+    }
+    .navbar img {
+        width: 174px;
+        height: auto;
+    }
+    .navbar .btn-signup {
+        padding: 10px 10px;
+    }
+    .navbar a.nav-link {
+        font-size: 12px;
     }
 }
 @media (min-width: 992px) {
@@ -1220,28 +1428,13 @@ button.owl-dot.active {
     .dropdown:hover .dropdown-icon {
         transform: rotate(180deg);
     }
+    
    
 }
-@media (max-width: 1200px) {
-    .feature__content {
 
-        height: 310px;
-    }
-    .navbar img {
-        width: 174px;
-        height: auto;
-    }
-    .navbar .btn-signup {
-        padding: 10px 10px;
-    }
-   
-}
 
 @media (max-width: 1024px) {
-    .banner__article--content h1 {
-      
-        font-size: 3.74vh!important;
-    }
+  
     a.read-more {
         display: block;
         width: max-content;
@@ -1259,6 +1452,7 @@ button.owl-dot.active {
         justify-content: center;
       
     }
+  
 }
 @media (max-width: 991.98px) {
     .banner__article--content h1 {
@@ -1267,6 +1461,13 @@ button.owl-dot.active {
     }
     .typed-title{
         top: 0;
+    }
+    .pt-140 {
+        padding-top: 90px;
+    }
+    .banner__article--content h1 {
+        font-size: 40px;
+    
     }
     .feature__content {
 
@@ -1325,15 +1526,24 @@ button.owl-dot.active {
         padding: 10px 20px;
         margin: 5px;
     }
+    .sub-menu.sub-menu-items {
+        width: 100% !important;
+    }
    
 }
 
 @media (max-width: 767.98px) {
     .banner__article--content h1 {
-        font-size: 36px;
+        font-size: 34px;
         line-height: 40px;
     }
-
+    .banner__article--content {
+        width: 80%;
+    }
+    .banner .member__search {
+        max-width: 90%;
+        width: 90%;
+    }
     .banner .member__search--input-type {
         width: 70%;
         border: none;
@@ -1367,6 +1577,25 @@ button.owl-dot.active {
     .banner .slider img {
         height: 400px;
     }
+    .typed-title {
+     
+        text-align: center;
+    }
+    .section-bg-banner .section-hero-title {
+        padding: 30px 0px;
+        text-align: center;
+    }
+    .about-us h1 {
+        margin: 0 0 0px;
+        font-size: 26px;
+ 
+    }
+    .profile-page .an-user {
+        margin-top: 40px;
+    }
+    .inner-banner__navbar h1 {
+        font-size: 30px;
+    }
 
 }
 
@@ -1375,6 +1604,9 @@ button.owl-dot.active {
         font-size: 26px;
         line-height: 30px;
       
+    }
+    .typed-title {
+     font-size: 16px;
     }
 
     .banner .member__search .btn-search {
@@ -1423,6 +1655,19 @@ button.owl-dot.active {
 
         border-radius: 20px;
     }
+    .inner-banner__navbar h1 {
+        font-size: 26px;
+    }
+    .w-75{
+        width: 100%!important;
+    }
+    .inner-banner__navbar .quick-view {
+        flex-wrap: wrap;
+    }
+    .inner-banner__navbar .quick-view .quick-detail {
+      
+        margin-bottom: 10px;
+    }
 
     .message .president .president-message {
         padding: 20px;
@@ -1456,31 +1701,43 @@ button.owl-dot.active {
     }
     .typed-title{
         top: 0;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100%;
     }
+    .teams .logo-img img {
+        height: auto;
+    }
+    .footer {
+        padding: 3rem 0 0;
+    }
+  
 
 }
 @media (max-width: 480px) {
-    .banner__article--content{
-        padding: 20px;
-        height: 80%;
-    }
+    
     .banner__article--content h1 {
-       
-        padding-top: 30px;
-    }
-    .banner__article--content p {
-        font-size: 20px;
-        text-align: left;
-        padding-top: 20px;
-        padding-bottom: 10px;
-    }
-    .typed-title{
-       font-size: 14px;
-    }
-    .banner__article--content h1 {
-        font-size: 20px;
-        line-height: 30px!important;
+        font-size: 24px;
+        line-height: 30px;
       
     }
+    .banner__article--content p {
+        padding: 0px 0px;
+    }
+    .typed-title p{
+        padding: 0px 0px;
+    }
+    .profile-page .an-user {
+        
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .teams__social-media {
+    
+        justify-content: center;
+    }
+    
+
+
 
 }

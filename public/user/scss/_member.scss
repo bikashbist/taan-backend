@@ -144,3 +144,18 @@
 #dropdownMenu li:hover {
     background-color: #f1f1f1;
 }
+.trip-facts-member{
+    .item {
+        i {
+            font-size: 26px;
+            color: #4da32f;
+        }
+        .text{
+            padding-top: 10px;
+        }
+    }
+}
+.trip-facts-member .item i {
+    font-size: 30px;
+    color: #ff9800;
+}

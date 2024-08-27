@@ -65,12 +65,12 @@
             font-family:$font-poppins;
         }
         .website-visit{
-            color: #dc3545;
+            color: #4da42f;
             position: relative;
             margin-bottom: 20px;
             font-weight: 500;
             i{
-                color: #dc3545;
+                color: #4da42f;
             }
             &::before {
                 content: "";
@@ -82,7 +82,7 @@
                 background-color: transparent;
                 // border-radius: 50%;
                 z-index: 1;
-                border: 2px dashed #dc3545;
+                border: 2px dashed #4da42f;
                 transition: all ease 0.4s;
                 // animation: spin 13s infinite linear;
                 
@@ -151,7 +151,7 @@
 }
 .sidebar-profile{
     background: #f2f7f1;
-
+    overflow: hidden;
     border-radius: 5px;
 }
 .sidebar-border{

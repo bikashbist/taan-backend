@@ -54,11 +54,13 @@
     // background-color: #edf2fa;
     margin-bottom: -48px;
     .trail-list-overal__details {
-        border: 1px solid #ccc;
+        border: 2px solid #eceff7;
         border-radius: 10px;
         padding: 20px;
-        background-color: #fff;
+        background-color: #eceff7;
         height: 100%;
+        position: relative;
+    
     }
     ol, ul {
         padding-left: 0rem;
@@ -75,5 +77,27 @@
     }
     h5{
         font-size: 16px;
+        border-bottom: 2px solid #8BC34A;
+        padding-bottom: 10px;
+    }
+}
+.img-part-logo{
+    height: 100px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.trip-facts-member{
+ .item i {
+        font-size: 33px;
+        color: #4da42f;
     }
 }

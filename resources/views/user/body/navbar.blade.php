@@ -85,7 +85,18 @@
            
               <div class="sub-menu sub-menu-items w-100">
                 <a href="{{route('user.about')}}">Introduction</a>
+                <a href="{{route('user.profile')}}">Our Profile</a>
+                <a href="{{route('user.former-president')}}">Former Presidents</a>
+                <a href="{{route('user.executive-committee')}}"> Executive Committee</a>
+                <a href="{{route('user.departments')}}"> Departments</a>
+                <a href="{{route('user.previous-committees')}}"> Previous Executive Committees</a>
+                <a href="{{route('user.become-member')}}"> To Become Member</a>
+                <a href="{{route('user.teams')}}"> Our Amazing Team</a>
                 <a href="{{route('user.organization.chart')}}">Organizations Chart</a>
+
+                
+               
+                
               </div>
             </div>
           </li>
@@ -96,15 +107,60 @@
               About us
             </a>
           </li> --}}
-          <li class="nav-item">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="https://tims.ntb.gov.np/login" role="button">
+              TIMs <i class="fas fa-chevron-down dropdown-icon"></i>
+            </a>
+            <div class="dropdown-menu ">
+           
+              <div class="sub-menu sub-menu-items w-100">
+                <a href="https://tims.ntb.gov.np/login">TIMs /Login & Register</a>
+                <a href="{{route('user.tims-overview')}}">TIMs Overview</a>
+              </div>
+            </div>
+          </li>
+          {{-- <li class="nav-item">
             <a class="nav-link" href="https://tims.ntb.gov.np/login" role="button" aria-expanded="false">
               TIMs
             </a>
-          </li>
+          </li> --}}
           <li class="nav-item">
             <a class="nav-link" href="{{route('user.faq')}}" role="button" aria-expanded="false">
               FAQs
             </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="{{route('user.about')}}" role="button">
+              Others <i class="fas fa-chevron-down dropdown-icon"></i>
+            </a>
+            <div class="dropdown-menu d-flex end-0 ">
+              <div class="sub-menu sub-menu-items w-100 p-3 ">
+                <h5 class="sub-menu-title px-3 "  >Media</h5>
+                <a href="{{route('user.news_event')}}">News & Events</a>
+                <a href="{{route('user.newsletter')}}">Newsletter</a>
+                <a href="{{route('user.notification')}}"> Notification</a>
+                <a href="{{route('user.publication')}}"> TAAN Publications</a>
+                <a href="{{route('user.press-release')}}"> Press Release</a>
+                <a href="{{route('user.blog')}}"> Blog</a>
+                <a href="{{route('user.gallery')}}"> Photo Gallery</a>
+                <a href="{{route('user.video-gallery')}}"> Video Gallery</a>
+
+                
+                
+              </div>
+              <div class="sub-menu  sub-menu-items w-100 p-3 ">
+                <h5 class="sub-menu-title px-3 " >
+                  Resources
+                </h5>
+                <a href="{{route('user.rescue')}}">Rescue Procedure 2075</a>
+                <a href="{{route('user.fee')}}">Trekking Peaks fees</a>
+                <a href="{{route('user.treking-permit-fee')}}"> Trekking Permit fees</a>
+                <a href="{{route('user.download')}}">Downloads</a>
+             
+                
+              </div>
+         
+            </div>
           </li>
         </ul>
         <div class="d-flex align-items-center mobile-r-c" role="search">

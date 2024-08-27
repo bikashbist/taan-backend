@@ -1,13 +1,26 @@
 @extends('user.user_dashboard')
 @section('content')
-<section class="about-us mt-lg-5">
-    <div class="container">
+<div class="bg-light-inner">
+<section class="about-us ">
+    <div class="section-bg-banner">
+        <div class="hero-bg">
+            <img src="{{asset('user/images/layout-img/page-title.webp')}}"  alt="bg">
+        </div>
+        <div class="container">
+           <div class="section-hero-title">
+            <p class="text-white"> Welcome to Trekking Agencies' Association of Nepal (TAAN)</p>
+            <h1 class="text-white">Organizations Chart</h1>
+
+          
+           </div>
+           <img class="page-title-icon" src="{{asset('user/images/layout-img/icon-page-title.png')}}" alt="icon">
+        </div>
+    </div>
+    <div class="container py-lg-5 py-3">
         <div class="row">
-            <div class="col-lg-12 mx-auto text-center">
+            <div class="col-lg-12 mx-auto ">
 
-                <h1>Organizations Chart</h1>
-
-                <p> Welcome to Trekking Agencies' Association of Nepal (TAAN)</p>
+               
 
                 {{-- <div class="an-user mb-4 pb-xl-2 d-flex align-items-center">
                     <div class="image image-big">
@@ -37,5 +50,6 @@
     </div>
     
 </section>
+</div>
    
 @endsection

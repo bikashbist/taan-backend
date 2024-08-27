@@ -79,7 +79,7 @@
         <div class="container">
             <div class="section__title text-center text-lg-start">
                 <h3>
-                    What is Trail ?
+                    What is Trail Profile ?
                     </h1>
                    <hr>
             </div>
@@ -832,7 +832,7 @@
             </div>
         </div>
     </section>
-    <section class="trail-list-overal  py-lg-5 ">
+    <section class="trail-list-overal  py-lg-5 mb-lg-3 mb-3 ">
         <div class="container">
             <div class="section__title text-center text-lg-start mb-lg-4">
                 <h3>
@@ -858,6 +858,9 @@
                             <li><a href="#">Winter
                                 </a></li>
                         </ul>
+                        <div class="img-part-logo">
+                            <img src="https://cvsqtgaxsa.cloudimg.io/https://indiahikes.com/assets/icons/seasons.svg?w=960&blur=80&org_if_sml=1" alt="img">
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-2">
@@ -894,6 +897,9 @@
                        
 
                         </ul>
+                        <div class="img-part-logo">
+                            <img src="https://cvsqtgaxsa.cloudimg.io/https://indiahikes.com/assets/icons/months.svg?w=960&blur=80&org_if_sml=1" alt="img">
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-2">
@@ -919,6 +925,9 @@
                            
 
                         </ul>
+                        <div class="img-part-logo">
+                            <img src="https://cvsqtgaxsa.cloudimg.io/https://indiahikes.com/assets/icons/duration.svg?w=1920&org_if_sml=1" alt="img">
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-2">
@@ -945,6 +954,9 @@
                            
 
                         </ul>
+                        <div class="img-part-logo">
+                            <img src="https://cvsqtgaxsa.cloudimg.io/https://indiahikes.com/assets/icons/difficulty.svg?w=960&blur=80&org_if_sml=1" alt="img">
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-2">
@@ -971,6 +983,9 @@
                            
 
                         </ul>
+                        <div class="img-part-logo">
+                            <img src="https://cvsqtgaxsa.cloudimg.io/https://indiahikes.com/assets/icons/specialtreks.svg?w=960&blur=80&org_if_sml=1" alt="img">
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-2">
@@ -997,6 +1012,9 @@
                            
 
                         </ul>
+                        <div class="img-part-logo">
+                            <img src="https://cvsqtgaxsa.cloudimg.io/https://indiahikes.com/assets/icons/region.svg?w=960&blur=80&org_if_sml=1" alt="img">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1007,222 +1025,4 @@
         </div>
     </section>
 
-    {{-- <section class="section-trail mb-3">
-        <div class="container">
-
-            <div class="section-trail__details">
-                <div class="row g-4 ">
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                        <a href="{{route('user.trail.details')}}">
-                            <div class="section-trail__details__list">
-                                <div class="section-trail__details__list__box">
-                                    <div class="logo-img">
-                                        <img src="{{ asset('user/images/trail/things-to-do-in-kathmandu-300x200.jpg') }}"
-                                            alt="" class="img">
-                                        <div class="tag up-coming  px-4">
-                                            <img src="{{ asset('user/images/trail/soon.svg') }}" alt="coming soon">
-                                        </div>
-                                        <!-- <div class="bagde-flag-wrap">
-                                                <a href="#" class="bagde-flag"> NEw </a>
-                                              </div> -->
-                                        <div class="trail-packages">
-
-                                        </div>
-                                    </div>
-
-                                    <div class="text">
-
-                                        <small><i class="fa-solid fa-location-dot"></i> Kathmandu, Chitwan, Pokhara
-                                        </small>
-                                        <h5 class="mb-lg-4">Things To Do In Kathmandu – 11 Must See And Do Activities In Nepal’s
-                                            Capital </h5>
-
-                                    </div>
-
-                                </div>
-
-                            </div> <!-- list section-trail -->
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                        <a href="{{route('user.trail.details')}}">
-                            <div class="section-trail__details__list">
-                                <div class="section-trail__details__list__box">
-                                    <div class="logo-img">
-                                        <img src="{{ asset('user/images/trail/Climbers-side-Nepali-Mount-Everest.webp') }} "
-                                            alt="" class="img">
-                                        <div class="bagde-flag-wrap">
-                                            <a href="#" class="bagde-flag"> NEW </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="text">
-
-                                        <small><i class="fa-solid fa-location-dot"></i> Solukhumbu Nepal -10
-                                        </small>
-                                        <a href="{{route('user.trail.details')}}">
-                                            <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
-                                        </a>
-
-                                    </div>
-
-                                </div>
-
-                            </div> <!-- list section-trail -->
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                        <a href="{{route('user.trail.details')}}">
-                            <div class="section-trail__details__list">
-                                <div class="section-trail__details__list__box">
-                                    <div class="logo-img">
-                                        <img src="{{ asset('user/images/trail/Climbers-side-Nepali-Mount-Everest.webp') }}"
-                                            alt="" class="img">
-                                        <div class="bagde-flag-wrap">
-                                            <a href="#" class="bagde-flag"> NEW </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="text">
-
-                                        <small><i class="fa-solid fa-location-dot"></i> Solukhumbu Nepal -10
-                                        </small>
-                                        <a href="{{route('user.trail.details')}}">
-                                            <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
-                                        </a>
-
-
-
-                                    </div>
-
-                                </div>
-
-                            </div> <!-- list section-trail -->
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                        <a href="#">
-                            <div class="section-trail__details__list">
-                                <div class="section-trail__details__list__box">
-                                    <div class="logo-img">
-                                        <img src="https://media.everestbasecamptravel.com/uploads/package/namche-helicopter-flight.webp"
-                                            alt="" class="img">
-                                        <div class="bagde-flag-wrap">
-                                            <a href="#" class="bagde-flag"> NEW </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="text">
-
-                                        <small><i class="fa-solid fa-location-dot"></i> Kathmandu, Chitwan, Pokhara
-                                        </small>
-                                        <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
-
-
-                                    </div>
-
-                                </div>
-
-                            </div> <!-- list section-trail -->
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                        <a href="#">
-                            <div class="section-trail__details__list">
-                                <div class="section-trail__details__list__box">
-                                    <div class="logo-img">
-                                        <img src="https://media.everestbasecamptravel.com/uploads/package/namche-helicopter-flight.webp"
-                                            alt="" class="img">
-                                        <div class="bagde-flag-wrap">
-                                            <a href="#" class="bagde-flag"> NEW </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="text">
-
-                                        <small><i class="fa-solid fa-location-dot"></i> Kathmandu, Nepal </small>
-                                        <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
-
-
-                                    </div>
-
-                                </div>
-
-                            </div> <!-- list section-trail -->
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                        <a href="#">
-                            <div class="section-trail__details__list">
-                                <div class="section-trail__details__list__box">
-                                    <div class="logo-img">
-                                        <img src="https://media.everestbasecamptravel.com/uploads/package/namche-helicopter-flight.webp"
-                                            alt="" class="img">
-
-                                    </div>
-
-                                    <div class="text">
-
-                                        <small><i class="fa-solid fa-location-dot"></i> Kathmandu, Nepal </small>
-                                        <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
-
-
-                                    </div>
-
-                                </div>
-
-                            </div> <!-- list section-trail -->
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                        <a href="#">
-                            <div class="section-trail__details__list">
-                                <div class="section-trail__details__list__box">
-                                    <div class="logo-img">
-                                        <img src="https://media.everestbasecamptravel.com/uploads/package/namche-helicopter-flight.webp"
-                                            alt="" class="img">
-
-                                    </div>
-
-                                    <div class="text">
-
-                                        <small><i class="fa-solid fa-location-dot"></i> Kathmandu, Nepal </small>
-                                        <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
-
-
-                                    </div>
-
-                                </div>
-
-                            </div> <!-- list section-trail -->
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                        <a href="#">
-                            <div class="section-trail__details__list">
-                                <div class="section-trail__details__list__box">
-                                    <div class="logo-img">
-                                        <img src="https://media.everestbasecamptravel.com/uploads/package/namche-helicopter-flight.webp"
-                                            alt="" class="img">
-
-                                    </div>
-
-                                    <div class="text">
-
-                                        <small><i class="fa-solid fa-location-dot"></i> Kathmandu, Nepal </small>
-                                        <h5>Everest Base Camp Trek - 13 Things to Know for Your Trip</h5>
-
-
-                                    </div>
-
-                                </div>
-
-                            </div> <!-- list section-trail -->
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section><!-- up section-trail trail --> --}}
 @endsection

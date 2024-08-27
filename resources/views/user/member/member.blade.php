@@ -1,109 +1,7 @@
-{{-- @extends('user.user_dashboard')
-@section('content')
-    <div class="trail-profile member-search  pb-lg-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-10 col-12 mx-auto">
-                    <h1 class="text-center text-white py-lg-5 py-3">Looking For Member agencies?</h1>
-                    <h4 class="text-center text-white member-filter-title mb-3">Filter Alphabetically</h4>
-                    <div class="filter-member text-center">
-
-                        <span data-value="Search Trails"> A
-                        </span>
-                        <span data-value="Upsection-trail Trails">
-                            B</span>
-                        <span data-value="New Trails"> C</span>
-                        <span data-value="Existing Trails"> D</span>
-                        <span data-value="Existing Trails"> E</span>
-                        <span data-value="Existing Trails"> F</span>
-                        <span data-value="Existing Trails"> G</span>
-                        <span data-value="Existing Trails"> H</span>
-                        <span data-value="Existing Trails"> I</span>
-                        <span data-value="Existing Trails"> J</span>
-                        <span data-value="Existing Trails"> K</span>
-                        <span data-value="Existing Trails"> L</span>
-                        <span data-value="Existing Trails"> M</span>
-                        <span data-value="Existing Trails"> N</span>
-                        <span data-value="Existing Trails"> O</span>
-                        <span data-value="Existing Trails"> P</span>
-                        <span data-value="Existing Trails"> Q</span>
-                        <span data-value="Existing Trails"> R</span>
-                        <span data-value="Existing Trails"> S</span>
-                        <span data-value="Existing Trails"> T</span>
-                        <span data-value="Existing Trails"> U</span>
-                        <span data-value="Existing Trails"> V</span>
-                        <span data-value="Existing Trails"> W</span>
-                        <span data-value="Existing Trails"> X</span>
-                        <span data-value="Existing Trails"> Y</span>
-                        <span data-value="Existing Trails"> Z</span>
-
-
-                    </div>
-
-                    <div class="search-trail">
-                        <form id="searchForm" View Details="#">
-                            <div class="d-flex align-items-center justify-content-between search-trail__search">
-                                <div class="search-trail__search--input d-flex align-items-center flex-fill">
-                                    <b><i class="fa-solid fa-magnifying-glass"></i></b>
-                                    <input id="searchInput" class="search-trail__search--input-type" type="text"
-                                        placeholder="Search Member">
-                                </div>
-                                <button id="searchButton" class="btn-search" type="submit"><i
-                                        class="fa-solid fa-magnifying-glass"></i> Search</button>
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <div class="section mt-lg-5">
-        <div class="container justify-content-center">
-            <div class="row">
-
-                <div class="col-lg-6">
-                    <div class="banner2-card five">
-                        <img src="https://demo-egenslab.b-cdn.net/html/triprex/preview/assets/img/home3/banner4-card-img2.png"
-                            alt="">
-                        <div class="banner2-content-wrap d-flex align-items-center">
-                            <div class="w-100 d-flex flex-column align-items-end">
-                                <div class="banner2-content">
-                                    <span>Connect With Us</span>
-                                    <h5>Up to <span>2500 +</span> Members.</h5>
-                                    <a href="package-grid.html" class="secondary-btn1">View The Members</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="banner4-card four">
-                        <img src="https://demo-egenslab.b-cdn.net/html/triprex/preview/assets/img/home3/banner4-card-img1.png"
-                            alt="">
-                        <div class="banner4-content-wrapper">
-                            <div class="banner4-content">
-                                <span>About Trail</span>
-                                <h3>225 + <small>More</small></h3>
-                                <a href="package-grid.html" class="text">Discover Trail</a>
-                                <a href="package-grid.html" class="primary-btn1">View The Trail</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-@endsection --}}
-
-
 @extends('user.user_dashboard')
 @section('content')
     <div class="trail-profile member-search pb-lg-5">
-        <div class="container py-lg-5">
+        <div class="container py-lg-4">
             <div class="row">
                 <div class="col-lg-7 col-md-10 col-12 mx-auto">
                     <h1 class="text-center text-white py-lg-4 py-3">Looking For Member agencies?</h1>
@@ -430,7 +328,7 @@
     </div>
     
     
-    <div class="section mt-lg-5">
+    <div class="section my-lg-5">
         <div class="container justify-content-center">
             <div class="row">
                 <div class="col-lg-6">

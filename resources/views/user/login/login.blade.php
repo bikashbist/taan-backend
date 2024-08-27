@@ -21,7 +21,7 @@
                     </div>
                     <div class="mb-3 text-center">
                   
-                      <a href="#">Forget Password?</a>
+                      <a href="{{route('member.forget.password')}}">Forget Password?</a>
                     </div>
                     <div class="text-center">
                       <button type="submit" class="btn btn-login w-100">Sign In</button>
